@@ -1,0 +1,254 @@
+[
+  {
+    "ID_Prodotto": 1,
+    "Titolo": "Smartphone XYZ",
+    "Descrizione": "Un fantastico smartphone con caratteristiche innovative.",
+    "Marca": "XYZ",
+    "Prezzo": 499.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/71pncAKTQDL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ecdEvQN3L._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettronica"]
+  },
+  {
+    "ID_Prodotto": 2,
+    "Titolo": "Lavatrice ABC",
+    "Descrizione": "Una lavatrice efficiente per tutte le tue esigenze di lavaggio.",
+    "Marca": "ABC",
+    "Prezzo": 699.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/71yZuQn7c0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71o+wJyZ5wL._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettrodomestici"]
+  },
+  {
+    "ID_Prodotto": 3,
+    "Titolo": "Frigorifero DEF",
+    "Descrizione": "Un frigorifero spazioso e energetico per conservare i tuoi alimenti in modo efficiente.",
+    "Marca": "DEF",
+    "Prezzo": 899.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/7161aFV234L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51xIJ4raayL._AC_SL1007_.jpg"
+    ],
+    "Categorie": ["elettrodomestici"]
+  },
+  {
+    "ID_Prodotto": 4,
+    "Titolo": "Macchina da Caffè GHI",
+    "Descrizione": "Una macchina da caffè automatica per gustare caffè fresco ogni mattina.",
+    "Marca": "GHI",
+    "Prezzo": 299.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/71Lb4rcgLuL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61fjSPGMxdL._AC_SL1500_.jpg",
+	  "https://m.media-amazon.com/images/I/6185GuwKSbL._AC_SL1500_.jpg",
+	  "https://m.media-amazon.com/images/I/71N9Gr-Fq-L._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettrodomestici", "cucina"]
+  },
+  {
+    "ID_Prodotto": 5,
+    "Titolo": "Tostapane UVW",
+    "Descrizione": "Un tostapane elegante e versatile per preparare deliziose fette di pane tostato.",
+    "Marca": "UVW",
+    "Prezzo": 49.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/61UU2IfguuL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51Q41mupLiL._AC_SL1000_.jpg",
+	  "https://m.media-amazon.com/images/I/61wjiyjEndL._AC_SL1000_.jpg"
+    ],
+    "Categorie": ["elettrodomestici", "cucina"]
+  },
+  {
+    "ID_Prodotto": 6,
+    "Titolo": "Fotocamera DSLR 123",
+    "Descrizione": "Una fotocamera digitale reflex per catturare momenti indimenticabili.",
+    "Marca": "123",
+    "Prezzo": 799.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/814wklXhBcL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91OJ5Nhpb8L._AC_SL1500_.jpg",
+	  "https://m.media-amazon.com/images/I/81Tuw8B7+4L._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["fotografia"]
+  },
+  {
+    "ID_Prodotto": 7,
+    "Titolo": "Cucina a Gas LMN",
+    "Descrizione": "Una cucina a gas moderna e efficiente per preparare deliziosi piatti.",
+    "Marca": "LMN",
+    "Prezzo": 1299.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/61TXHd1L9ML._AC_SL1418_.jpg",
+      "https://m.media-amazon.com/images/I/61sD-xfuPBL._AC_SL1500_.jpg",
+	  "https://m.media-amazon.com/images/I/71tqUu-c8qL._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettrodomestici", "cucina"]
+  },
+  {
+    "ID_Prodotto": 8,
+    "Titolo": "Stampante XYZ",
+    "Descrizione": "Una stampante di alta qualità per stampare documenti e foto con facilità.",
+    "Marca": "XYZ",
+    "Prezzo": 199.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/51TRtVOGZLL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41d7FeYHsmL._AC_SL1101_.jpg",
+	  "https://m.media-amazon.com/images/I/51lBa53u62L._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettronica", "ufficio"]
+  },
+  {
+    "ID_Prodotto": 9,
+    "Titolo": "Asciugatrice ABC",
+    "Descrizione": "Un'asciugatrice affidabile per asciugare i tuoi vestiti in poco tempo.",
+    "Marca": "ABC",
+    "Prezzo": 599.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/61NOiNaMMsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61InNofv9qL._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettrodomestici"]
+  },
+  {
+    "ID_Prodotto": 10,
+    "Titolo": "Mouse da Gioco RGB",
+    "Descrizione": "Un mouse da gioco con illuminazione RGB e prestazioni di alta precisione.",
+    "Marca": "XYZ",
+    "Prezzo": 79.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/713RxxjGIGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71M82kEkXpL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71bfMn5xeWL._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettronica", "gaming"]
+  },
+  {
+    "ID_Prodotto": 11,
+    "Titolo": "Tastiera Meccanica RGB",
+    "Descrizione": "Una tastiera meccanica con retroilluminazione RGB e layout italiano.",
+    "Marca": "LMN",
+    "Prezzo": 129.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/61FHqyzzTbL._AC_SL1345_.jpg",
+      "https://m.media-amazon.com/images/I/71ndSL6wwHL._AC_SL1430_.jpg",
+      "https://m.media-amazon.com/images/I/71FDDPq50XL._AC_SL1459_.jpg"
+    ],
+    "Categorie": ["elettronica", "gaming"]
+  },
+  {
+    "ID_Prodotto": 12,
+    "Titolo": "Teiera Elettrica XYZ",
+    "Descrizione": "Una teiera elettrica con controllo della temperatura per preparare il tè perfetto.",
+    "Marca": "XYZ",
+    "Prezzo": 39.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/712oWV9JVkL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/410i50y426L._AC_.jpg"
+    ],
+    "Categorie": ["elettrodomestici", "cucina"]
+  },
+  {
+    "ID_Prodotto": 13,
+    "Titolo": "Console di Gioco ABC",
+    "Descrizione": "Una console di gioco potente e versatile per un'esperienza di gioco senza precedenti.",
+    "Marca": "ABC",
+    "Prezzo": 399.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/71amc6jMM4S._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71vFyhZ0EoL._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettronica", "gaming"]
+  },
+  {
+    "ID_Prodotto": 14,
+    "Titolo": "Forno a Microonde DEF",
+    "Descrizione": "Un forno a microonde compatto e efficiente per riscaldare e cuocere cibi rapidamente.",
+    "Marca": "DEF",
+    "Prezzo": 149.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/41vG8wfGqSL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/41TCQuVYFGL._AC_SL1000_.jpg"
+    ],
+    "Categorie": ["elettrodomestici", "cucina"]
+  },
+  {
+    "ID_Prodotto": 15,
+    "Titolo": "Videocamera 4K LMN",
+    "Descrizione": "Una videocamera compatta con registrazione video in alta risoluzione.",
+    "Marca": "LMN",
+    "Prezzo": 899.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/81KfN+tOWuL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71qYXR7-FQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Hav2VC45L._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettronica", "fotografia"]
+  },
+  {
+    "ID_Prodotto": 16,
+    "Titolo": "Bollitore Elettrico UVW",
+    "Descrizione": "Un bollitore elettrico rapido e affidabile per preparare bevande calde in pochi minuti.",
+    "Marca": "UVW",
+    "Prezzo": 29.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/61oIxYZ2gOL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Xn3YajglL._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettrodomestici", "cucina"]
+  },
+  {
+    "ID_Prodotto": 17,
+    "Titolo": "Monitor LED XYZ",
+    "Descrizione": "Un monitor LED ad alta definizione per un'esperienza visiva impeccabile.",
+    "Marca": "XYZ",
+    "Prezzo": 249.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/71tjm0zXupL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/711nU9B3WQL._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettronica"]
+  },
+  {
+    "ID_Prodotto": 18,
+    "Titolo": "Aspirapolvere Robot ABC",
+    "Descrizione": "Un aspirapolvere robot intelligente per mantenere puliti i tuoi pavimenti senza sforzo.",
+    "Marca": "ABC",
+    "Prezzo": 299.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/619TvTYML3L._AC_SL1500_.jpg",
+      "https://example.com/images/aspirapolvere_abc_2.jpg"
+    ],
+    "Categorie": ["elettrodomestici"]
+  },
+  {
+    "ID_Prodotto": 19,
+    "Titolo": "Tritatutto da Cucina LMN",
+    "Descrizione": "Un tritatutto versatile per preparare salse, pesti e molto altro.",
+    "Marca": "LMN",
+    "Prezzo": 49.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/618BRH6RcaL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7154owHzu0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41DQGFaV9-L._AC_SL1230_.jpg"
+    ],
+    "Categorie": ["elettrodomestici", "cucina"]
+  },
+  {
+    "ID_Prodotto": 20,
+    "Titolo": "Impianto Home Theater XYZ",
+    "Descrizione": "Un sistema home theater completo per un'esperienza audio immersiva.",
+    "Marca": "XYZ",
+    "Prezzo": 799.99,
+    "URL_immagini": [
+      "https://m.media-amazon.com/images/I/71pvDroWNGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/612Vml777vL._AC_SL1500_.jpg"
+    ],
+    "Categorie": ["elettronica"]
+  }
+]
+
+
