@@ -9,4 +9,6 @@ al seguito ci siamo subito cimentati nella progettazione logica e alla divisione
 2)  il gruppo N2 composto dai Sottufficiali Antonio L. Antonio M. Antonino P. E. i quali puntualmente si cimentaano nella parte di
     progettazione/design della pagina web
 
+ore 17:45 con votazione di tutto l`equipaggio si decide di usare Tailwind con N3 votazioni a favori, N2 votazioni contrarie 0 voti nulli
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
