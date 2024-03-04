@@ -1,29 +1,11 @@
-# Vue - Router - TailwindCSS
+Diario del capitano (Giorno 1 04/03/2024)
+era un Lunedì uggioso nel quale il Comandante Supremo Egreggio Sg. Simone ci ha donato delle fantastiche traccie,
+tra le molteplici scelte dopo svariate votazioni il mio equipaggio ed io abbiamo deciso di fare la traccia dell ecommerce,
+al seguito ci siamo subito cimentati nella progettazione logica e alla divisione dei compiti, per questa giornata ci siamo suddivisi in 2 gruppi
 
-This template should help get you started developing with Vue 3 in Vite.
+il primo gruppo composto dal Capitano e dal ufficiale di Vascello Andrea M. i quali si sono cimentati nel creare il file .jeson e 
+pianificazione iniziale delo script per la logica del futuro ecommerce
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+il gruppo N2 composto dai Sottufficiali Antonio L. Antonio M. Antonino P. E. i quali puntualmente si cimentaano nella parte di
+progettazione/design della pagina web
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
