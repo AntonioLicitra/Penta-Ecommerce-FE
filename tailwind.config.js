@@ -9,7 +9,13 @@ export default {
 			'custom-gradient': ['#ff0000', '#00ff00'], // Esempio di array di gradienti
 		  },
 		  fontSize: {
-			'enorme': '200px'
+			'grande': '40px',
+			'medio':'24px',
+			'piccolo':'18px',
+			'grandeMobile':'32px',
+			'medioMobile':'20px',
+			'piccoloMobile':'16px'
+			
 		  },
 		},
 	  },
