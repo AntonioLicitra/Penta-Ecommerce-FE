@@ -3,6 +3,8 @@ import HomeView from '@/views/HomeView.vue'
 import Page404 from '@/views/Page404.vue'
 import Saldi from '@/views/Saldi.vue'
 import Shop from '@/views/Shop.vue'
+import About from '@/views/About.vue'
+import PaginaProd from '@/views/PaginaProd.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,7 +28,18 @@ const router = createRouter({
       path: '/shop',
       name: 'Shop',
       component: Shop
+    },
+    {
+      path: '/About',
+      name: 'About',
+      component: About
+    },
+    {
+      path: '/PaginaProd',
+      name: 'PaginaProd',
+      component: PaginaProd
     }
+
   ]
 })
 

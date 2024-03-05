@@ -4,7 +4,7 @@ import Header from './components/Header.vue';
 import Header2 from './components/Header2.vue';
 import Footer from './components/Footer.vue';
 
-export default {
+export default {
   components: {
     Header,
     Header2,
@@ -14,12 +14,10 @@ export default {
 </script>
 
 
-
 <template>
   <Header />
   <Header2 />
 	<RouterView />
   <Footer />
 </template>
-
 
