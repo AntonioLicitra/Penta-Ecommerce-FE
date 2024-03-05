@@ -28,11 +28,7 @@ export const useCartStore = defineStore('cart', {
             }
         },
         empty() {
-            console.log("this.items pre", this.items)
-
             this.items = []
-
-            console.log("this.items post", this.items)
         }
     },
     getters: {

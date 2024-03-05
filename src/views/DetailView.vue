@@ -14,14 +14,11 @@ export default {
     },
     computed: {
         ...mapStores(useCartStore)
-        
-        //...mapState(useCartStore, ['cart']),
     },
     methods: {
         ...mapActions(useCartStore, ['add', 'empty']),
         buttonClick() {
             this.add(this.product, this.quantity);
-            console.log(this.cartStore.items)
             this.cartView = this.cartStore.items
         },
         emptyCart() {
@@ -40,9 +37,6 @@ export default {
         });
 
         this.cartView = this.cartStore.items
-
-        console.log("this.$route.params.id", this.$route.params.id)
-        console.log("product", this.product)
     }
 }
 </script>
