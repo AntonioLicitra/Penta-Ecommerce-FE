@@ -13,14 +13,17 @@ ore 17:45 con votazione di tutto l`equipaggio si decide di usare Tailwind a disc
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Diario del capitano Giorno N2 (05/03/2024)
-un Martedi' particolare appena svegli ci siamo ritrovati al centro di una tempesta ma grazie all equipaggio siamo riusciti ad aggirala, almeno per il momento...
+un Martedi' particolare, appena svegli ci siamo ritrovati al centro di una tempesta ma grazie all equipaggio siamo riusciti ad aggirala, almeno per il momento...
 Dopo il conueto appello mattutino ci siamo riuniti per assegnare le task giornaliere, nello specifico:
 al Sottufficiale Antonio L. è stato assegnata la HomePage, al Sottufficiale Antonio M. il Footer, al Sottufficiale Antonino P.E.  Header e Nav.
-nel mentre il Sottoscritto e l'ufficiale di Vascello Andrea M. si accingevano a modificare il file json e capire alcune meccaniche per la logica del carrello 
+nel mentre il Sottoscritto e l'ufficiale di Vascello Andrea M. si accingevano a modificare il file json e capire alcune meccaniche per la logica del carrello tramite l`apprendimento della documentazione di Pinia
 
 ad un certo punto il Sottufficiale Antonio M. e' caduto in mare per colpa di github, dopo aver dato immediatamente l'allarme accorrevamo al soccorso, fortunatamente nei paraggi 
 si trovava la nave del Comandante Supremo Egreggio Sg. Simone che è subito cimentato anchesso al soccorso, dopo svariati tentativi il Comandante Supremo Egreggio Sg. Simone è
 riuscito nell impresa di salvatagio il Sottufficiale Antonio M. tratto in salvo dava segni di essere abbastanza scosso dall accaduto.
+
+Nel pomeriggio tutto riprende tranquillamente il gruppo N1 procede a mettere in pratica quelo studiato la mattina con un mezzo sucesso,
+il gruppo N2 continua la progettazione grafica completando l`header e nav, homepage e aggiungendo la pagina about
 
 
 
