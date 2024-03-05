@@ -1,0 +1,31 @@
+[
+    {
+        "ID_User": 1,
+        "Name": "",
+        "Surname": "",
+        "E-mail": "",
+        "...": "...",
+        "Orders": [
+            {
+                "ID_Order": 1,
+                "Data": "1970-01-01T00:00:00",
+                "Order": [
+                    {
+                        "Product": {
+                            "...": "...",
+                            "Discount": 0.1
+                        },
+                        "Quantity": 2
+                    },
+                    {
+                        "Product": {
+                            "ID_Product": 1
+                        },
+                        "Quantity": 2
+                    }
+                ],
+                "Total": 999.99
+            }
+        ]
+    }
+]

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import Page404 from '@/views/Page404.vue'
+import DetailView from '@/views/DetailView.vue'
 import Saldi from '@/views/Saldi.vue'
 import Shop from '@/views/Shop.vue'
 import About from '@/views/About.vue'
@@ -13,7 +14,13 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
-    },
+    }, 
+    {
+      path: '/detail/:id',
+      name: 'detail',
+      component: DetailView
+    }
+    ,
     {
       path: '/:catchAll(.*)',
       name: 'Page404',
