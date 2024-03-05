@@ -9,23 +9,30 @@ export const useCartStore = defineStore('cart', {
             if (this.items.length == 0) {
                 this.items.push({ product, quantity })
             } else {
-                this.items.forEach(element => {
-                    console.log("product.ID_Product", product.ID_Product)
-                    console.log("element.product.ID_Product", element.product.ID_Product)
-                    if (element.product.ID_Product === product.ID_Product) {
-                        element.quantity += quantity
-                    } else {
-                        this.items.push({ product, quantity })
+                let exists = false;
+                let existingItem = null
+
+                this.items.forEach(item => {
+                    if (item.product.ID_Product === product.ID_Product) {
+                        exists = true;
+                        existingItem = item;
+                        return
                     }
                 })
+
+                if (exists) {
+                    existingItem.quantity += quantity
+                } else {
+                    this.items.push({ product, quantity })
+                }
             }
         },
         empty() {
-            console.log("this.items pre",this.items)
+            console.log("this.items pre", this.items)
 
             this.items = []
 
-            console.log("this.items post",this.items)
+            console.log("this.items post", this.items)
         }
     },
     getters: {
