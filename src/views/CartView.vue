@@ -1,9 +1,11 @@
 <template>
-    <div class="absolute top-0 right-0 w-[100vw] lg:w-[500px] h-screen bg-slate-600/95 text-white z-[9999]">
+    <div class="cartView fixed top-0 right-0 w-[100vw] lg:w-[500px] h-screen bg-white text-black z-[9999]">
         <div class="flex justify-center items-center flex-col p-5">
             <!-- CLOSE CART BUTTON -->
             <button @click="closeCart"
-                class="bg-white text-black hover:bg-blue-600 hover:text-white transition duration-300 w-[30px] h-[30px] flex items-center justify-center rounded-full font-bold">X</button>
+                class="bg-blue-600 text-white hover:bg-white hover:text-blue-500 border border-blue-500 transition duration-300 w-[30px] h-[30px] flex items-center justify-center rounded-full font-bold">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
 
             <!-- OGNI SIGNOLO ITEM -->
             <CartItem v-for="item in items" :item="item" class="border-b"></CartItem>
@@ -14,13 +16,13 @@
                     <!-- TOTALE CARRELLO -->
                     <div class="flex justify-between items-center p-2">
                         <div> {{ total }}€</div>
-                        <button class="text-[14px]" @click="emptyCart">Svuota carrello</button>
+                        <button class="text-[14px] border-b border-white hover:border-black transition duration-300" @click="emptyCart">Svuota carrello</button>
                     </div>
 
                     <!-- CHECKOUT CTA -->
                     <div class="text-right">
                         <button
-                            class="bg-blue-600 text-white border-2 border-white rounded-sm hover:bg-white hover:text-black font-bold px-3 py-2 mt-2 text-piccolo transition duration-300"
+                            class="bg-blue-600 text-white border border-blue-500 rounded-sm hover:bg-white hover:text-blue-500 font-bold px-3 py-2 mt-2 text-piccolo transition duration-300"
                             @click="this.$emit('checkout')">
                             <RouterLink to="/checkout">Checkout</RouterLink>
                         </button>
@@ -37,6 +39,7 @@
             </div>
         </div>
     </div>
+    <div class="fixed top-0 right-0 bottom-0 left-0 bg-black/25 z-[50]" @click="this.$emit('close-cart')"></div>
 </template>
 
 <script>
@@ -46,6 +49,7 @@ import { RouterLink } from 'vue-router'
 import CartItem from './CartItem.vue'
 
 export default {
+    emits: ['close-cart', 'checkout'],
     components: {
         CartItem
     },
@@ -91,3 +95,9 @@ export default {
     }
 }
 </script>
+
+<style>
+.cartView {
+    box-shadow: -10px 0px 50px -25px;
+}
+</style>

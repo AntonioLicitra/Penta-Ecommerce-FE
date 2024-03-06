@@ -1,5 +1,5 @@
 <template>
-    <div class="text-white flex justify-between items-center p-2 w-full">
+    <div class="flex justify-between items-center p-2 w-full">
         <div class="p-2 flex-col grow">
             <div class="flex gap-4">
                 <div class="w-[100px]">
@@ -20,7 +20,7 @@
         <div class="p-2 flex-none flex items-center justify-center">
             <div>
                 <input type="number" v-model="quantity" min="0" :max="item.product.quantity"
-                    class="text-white bg-transparent text-right px-2" @change="modifyQuantity">
+                    class="bg-transparent text-right px-2" @change="modifyQuantity">
             </div>
             <div class="flex flex-col justify-center items-center">
                 <i @click="increment"

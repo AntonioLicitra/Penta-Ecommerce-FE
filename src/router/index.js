@@ -11,8 +11,7 @@ import Fotografia from '@/views/Fotografia.vue'
 import Elettrodomestici from '@/views/Elettrodomestici.vue'
 import Gaming from '@/views/Gaming.vue'
 import Casa from '@/views/Casa.vue'
-import Checkout from '@/views/checkout.vue'
-import CheckoutView from '@/views/CheckoutView.vue'
+import Checkout from '@/views/Checkout.vue'
 import ConfirmView from '@/views/ConfirmView.vue'
 
 const router = createRouter({
@@ -28,11 +27,6 @@ const router = createRouter({
       name: 'detail',
       component: DetailView
     },
-    // {
-    //   path: '/checkout',
-    //   name: 'checkout',
-    //   component: CheckoutView
-    // },
     {
       path: '/confirm',
       name: 'confirm',
