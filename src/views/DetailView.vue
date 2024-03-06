@@ -15,7 +15,6 @@ export default {
         return {
             product: null,
             quantity: 1,
-            cartView: null,
         }
     },
     computed: {
@@ -23,14 +22,12 @@ export default {
     },
     methods: {
         ...mapActions(useCartStore, ['add', 'empty']),
-        buttonClick() {
-            this.add(this.product, this.quantity);
-            this.cartView = this.cartStore.items
-
+        addToCart() {
+            this.add(this.product, this.quantity)
+            this.cartView = this.cartStore.item
         },
-        emptyCart() {
-            this.empty()
-            this.cartView = this.cartStore.items
+        validateQuantity() {
+            this.quantity = this.quantity <= this.product.quantity ? this.quantity : this.product.quantity
         }
     },
     mounted() {
@@ -62,15 +59,10 @@ export default {
             <p class="text-medio mt-5">{{ product.description }}</p>
             <p class="text-piccolo mt-5">Disponibilità: {{ product.quantity }}</p>
             <input class="mt-[50px] p-[5px] border-[1px] rounded-md border-black" type="number" v-model="quantity"
-                min="1" :max="product.Quantity">
+                min="1" :max="product.quantity" @change="validateQuantity">
             <button
-                class="mt-[5px] bg-[#294f94ff] hover:bg-white hover:text-[#294f94ff] text-white text-medio font-medium lg:w-[400px] w-full py-2 border border-[#294f94ff] border-[3px] rounded-md "
-                @click="buttonClick">Aggiungi al carrello</button>
-            <button class="text-[14px]" @click="emptyCart">Svuota carrello</button>
-            <p v-for="cart in cartView">
-                Prodotto: {{ cart.product.title }}
-                Quantità: {{ cart.quantity }}
-            </p>
+                class="mt-[5px] bg-[#294f94ff] hover:bg-white hover:text-[#294f94ff] text-white text-medio font-medium lg:w-[400px] w-full py-2 border border-[#294f94ff] rounded-md transition duration-300"
+                @click="addToCart">Aggiungi al carrello</button>
         </div>
     </section>
 

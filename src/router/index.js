@@ -28,11 +28,11 @@ const router = createRouter({
       name: 'detail',
       component: DetailView
     },
-    {
-      path: '/checkout',
-      name: 'checkout',
-      component: CheckoutView
-    },
+    // {
+    //   path: '/checkout',
+    //   name: 'checkout',
+    //   component: CheckoutView
+    // },
     {
       path: '/confirm',
       name: 'confirm',

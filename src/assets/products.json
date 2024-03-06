@@ -1,9 +1,9 @@
 [
   {
     "product_id": 1,
-    "title": "Smartphone XYZ",
+    "title": "Smartphone UAUEI",
     "description": "Un fantastico smartphone con caratteristiche innovative.",
-    "brand": "XYZ",
+    "brand": "UAUEI",
     "price": 499.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71pncAKTQDL._AC_SL1500_.jpg",
@@ -30,9 +30,9 @@
   },
   {
     "product_id": 2,
-    "title": "Lavatrice ABC",
+    "title": "Lavatrice SNASUGM",
     "description": "Una lavatrice efficiente per tutte le tue esigenze di lavaggio.",
-    "brand": "ABC",
+    "brand": "SNASUGM",
     "price": 699.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71yZuQn7c0L._AC_SL1500_.jpg",
@@ -54,9 +54,9 @@
   },
   {
     "product_id": 3,
-    "title": "Frigorifero DEF",
+    "title": "Frigorifero CADDY",
     "description": "Un frigorifero spazioso e energetico per conservare i tuoi alimenti in modo efficiente.",
-    "brand": "DEF",
+    "brand": "CADDY",
     "price": 899.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/7161aFV234L._AC_SL1500_.jpg",
@@ -72,9 +72,9 @@
   },
   {
     "product_id": 4,
-    "title": "Macchina da Caffè GHI",
+    "title": "Macchina da Caffè BELONGHI",
     "description": "Una macchina da caffè automatica per gustare caffè fresco ogni mattina.",
-    "brand": "GHI",
+    "brand": "BELONGHI",
     "price": 299.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71Lb4rcgLuL._AC_SL1500_.jpg",
@@ -103,9 +103,9 @@
   },
   {
     "product_id": 5,
-    "title": "Tostapane UVW",
+    "title": "Tostapane ROVENTA",
     "description": "Un tostapane elegante e versatile per preparare deliziose fette di pane tostato.",
-    "brand": "UVW",
+    "brand": "ROVENTA",
     "price": 49.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/61UU2IfguuL._AC_SL1000_.jpg",
@@ -122,9 +122,9 @@
   },
   {
     "product_id": 6,
-    "title": "Fotocamera DSLR 123",
+    "title": "Fotocamera DSLR SONNY",
     "description": "Una fotocamera digitale reflex per catturare momenti indimenticabili.",
-    "brand": "123",
+    "brand": "SONNY",
     "price": 799.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/814wklXhBcL._AC_SL1500_.jpg",
@@ -152,9 +152,9 @@
   },
   {
     "product_id": 7,
-    "title": "Cucina a Gas LMN",
+    "title": "Cucina a Gas BOMBOLO",
     "description": "Una cucina a gas moderna e efficiente per preparare deliziosi piatti.",
-    "brand": "LMN",
+    "brand": "BOMBOLO",
     "price": 1299.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/61TXHd1L9ML._AC_SL1418_.jpg",
@@ -171,9 +171,9 @@
   },
   {
     "product_id": 8,
-    "title": "Stampante XYZ",
+    "title": "Stampante INKIOSTRO",
     "description": "Una stampante di alta qualità per stampare documenti e foto con facilità.",
-    "brand": "XYZ",
+    "brand": "INKIOSTRO",
     "price": 199.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/51TRtVOGZLL._AC_SL1500_.jpg",
@@ -190,9 +190,9 @@
   },
   {
     "product_id": 9,
-    "title": "Asciugatrice ABC",
+    "title": "Asciugatrice XL",
     "description": "Un'asciugatrice affidabile per asciugare i tuoi vestiti in poco tempo.",
-    "brand": "ABC",
+    "brand": "XL",
     "price": 599.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/61NOiNaMMsL._AC_SL1500_.jpg",
@@ -208,9 +208,9 @@
   },
   {
     "product_id": 10,
-    "title": "Mouse da Gioco RGB",
+    "title": "Mouse da Gioco (A)SUS",
     "description": "Un mouse da gioco con illuminazione RGB e prestazioni di alta precisione.",
-    "brand": "XYZ",
+    "brand": "(A)SUS",
     "price": 79.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/713RxxjGIGL._AC_SL1500_.jpg",
@@ -238,9 +238,9 @@
   },
   {
     "product_id": 11,
-    "title": "Tastiera Meccanica RGB",
+    "title": "Tastiera Meccanica PIRATE",
     "description": "Una tastiera meccanica con retroilluminazione RGB e layout italiano.",
-    "brand": "LMN",
+    "brand": "PIRATE",
     "price": 129.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/61FHqyzzTbL._AC_SL1345_.jpg",
@@ -263,9 +263,9 @@
   },
   {
     "product_id": 12,
-    "title": "Teiera Elettrica XYZ",
+    "title": "Teiera Elettrica FILLIPPS",
     "description": "Una teiera elettrica con controllo della temperatura per preparare il tè perfetto.",
-    "brand": "XYZ",
+    "brand": "FILLIPPS",
     "price": 39.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/712oWV9JVkL._AC_SL1500_.jpg",
@@ -287,9 +287,9 @@
   },
   {
     "product_id": 13,
-    "title": "Console di Gioco ABC",
+    "title": "Console di Gioco YBOX",
     "description": "Una console di gioco potente e versatile per un'esperienza di gioco senza precedenti.",
-    "brand": "ABC",
+    "brand": "YBOX",
     "price": 399.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71amc6jMM4S._AC_SL1500_.jpg",
@@ -311,9 +311,9 @@
   },
   {
     "product_id": 14,
-    "title": "Forno a Microonde DEF",
-    "description": "Un forno a microonde compatto e efficiente per riscaldare e cuocere cibi rapidamente.",
-    "brand": "DEF",
+    "title": "Porno a Microonde",
+    "description": "Un porno a microonde compatto e efficiente per riscaldare e cuocere cibi rapidamente.",
+    "brand": "PH",
     "price": 149.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/41vG8wfGqSL._AC_SL1000_.jpg",
@@ -340,9 +340,9 @@
   },
   {
     "product_id": 15,
-    "title": "Videocamera 4K LMN",
+    "title": "Videocamera 4K PAN-A-SONIC",
     "description": "Una videocamera compatta con registrazione video in alta risoluzione.",
-    "brand": "LMN",
+    "brand": "PAN-A-SONIC",
     "price": 899.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/81KfN+tOWuL._AC_SL1500_.jpg",
@@ -365,9 +365,9 @@
   },
   {
     "product_id": 16,
-    "title": "Bollitore Elettrico UVW",
+    "title": "Bollitore Elettrico PAIOLO",
     "description": "Un bollitore elettrico rapido e affidabile per preparare bevande calde in pochi minuti.",
-    "brand": "UVW",
+    "brand": "PAIOLO",
     "price": 29.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/61oIxYZ2gOL._AC_SL1500_.jpg",
@@ -383,9 +383,9 @@
   },
   {
     "product_id": 17,
-    "title": "Monitor LED XYZ",
+    "title": "Monitor LED ACE",
     "description": "Un monitor LED ad alta definizione per un'esperienza visiva impeccabile.",
-    "brand": "XYZ",
+    "brand": "ACE",
     "price": 249.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71tjm0zXupL._AC_SL1500_.jpg",
@@ -406,9 +406,9 @@
   },
   {
     "product_id": 18,
-    "title": "Aspirapolvere Robot ABC",
+    "title": "Aspirapolvere Robot ROOOMBA",
     "description": "Un aspirapolvere robot intelligente per mantenere puliti i tuoi pavimenti senza sforzo.",
-    "brand": "ABC",
+    "brand": "ROOOMBA",
     "price": 299.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/619TvTYML3L._AC_SL1500_.jpg",
@@ -435,9 +435,9 @@
   },
   {
     "product_id": 19,
-    "title": "Tritatutto da Cucina LMN",
+    "title": "Tritatutto da Cucina AIA",
     "description": "Un tritatutto versatile per preparare salse, pesti e molto altro.",
-    "brand": "LMN",
+    "brand": "AIA",
     "price": 49.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/618BRH6RcaL._AC_SL1500_.jpg",
@@ -460,9 +460,9 @@
   },
   {
     "product_id": 20,
-    "title": "Impianto Home Theater XYZ",
+    "title": "Impianto Home Theater BARBIEWOOD",
     "description": "Un sistema home theater completo per un'esperienza audio immersiva.",
-    "brand": "XYZ",
+    "brand": "BARBIEWOOD",
     "price": 799.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71pvDroWNGL._AC_SL1500_.jpg",
@@ -483,9 +483,9 @@
   },
   {
     "product_id": 21,
-    "title": "Maglione in Lana ABC",
+    "title": "Maglione in Lana FONDY",
     "description": "Un maglione in lana caldo e confortevole per l'inverno.",
-    "brand": "ABC",
+    "brand": "FONDY",
     "price": 79.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/918LgnKhEnL._AC_SY500_.jpg",
@@ -500,9 +500,9 @@
   },
   {
     "product_id": 22,
-    "title": "Borsa a Tracolla XYZ",
+    "title": "Borsa a Tracolla VERSACCI",
     "description": "Una borsa a tracolla elegante e pratica per il tuo look quotidiano.",
-    "brand": "XYZ",
+    "brand": "VERSACCI",
     "price": 79.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71rd4W6f9NL._AC_SY500_.jpg",
@@ -517,9 +517,9 @@
   },
   {
     "product_id": 23,
-    "title": "Scarpe da Corsa ABC",
+    "title": "Scarpe da Corsa GAZZELLA",
     "description": "Scarpe da corsa leggere e traspiranti per prestazioni ottimali durante l'allenamento.",
-    "brand": "ABC",
+    "brand": "GAZZELLA",
     "price": 129.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/718pCeauTlL._AC_SY500_.jpg",
@@ -536,9 +536,9 @@
   },
   {
     "product_id": 24,
-    "title": "Lavastoviglie LMN",
+    "title": "Lavastoviglie POLIWHILR",
     "description": "Una lavastoviglie silenziosa e efficiente per pulire i tuoi piatti in modo rapido e senza sforzo.",
-    "brand": "LMN",
+    "brand": "POLIWHILR",
     "price": 799.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/41bRwCuiVWL.__AC_SY445_SX342_QL70_ML2_.jpg",
@@ -554,9 +554,9 @@
   },
   {
     "product_id": 25,
-    "title": "Giacca in Pelle XYZ",
+    "title": "Giacca in Pelle FONZY",
     "description": "Una giacca in pelle elegante e resistente per un look alla moda in ogni occasione.",
-    "brand": "XYZ",
+    "brand": "FONZY",
     "price": 199.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71UJcWRoYsL._AC_SX466_.jpg",
@@ -583,9 +583,9 @@
   },
   {
     "product_id": 26,
-    "title": "Televisore Smart UVW",
+    "title": "Televisore Smart SNASUGM",
     "description": "Un televisore smart con risoluzione 4K per un'esperienza di visione eccezionale.",
-    "brand": "UVW",
+    "brand": "SNASUGM",
     "price": 999.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71jaCqy3OyL._AC_SX679_.jpg",
@@ -613,9 +613,9 @@
   },
   {
     "product_id": 27,
-    "title": "Maglietta Stampa Gattini ABC",
+    "title": "Maglietta Stampa Gattini FERRAGNI",
     "description": "Una maglietta carina con stampa di gattini, perfetta per gli amanti dei gatti.",
-    "brand": "ABC",
+    "brand": "FERRAGNI",
     "price": 29.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/A1vJUKBjc2L._CLa%7C2140%2C2000%7C81iGMVBHgmL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX385_.png"
@@ -630,9 +630,9 @@
   },
   {
     "product_id": 28,
-    "title": "Macchina da Scrivere Vintage LMN",
+    "title": "Macchina da Scrivere Vintage OLIVETTE",
     "description": "Una macchina da scrivere vintage per gli appassionati di scrittura retrò.",
-    "brand": "LMN",
+    "brand": "OLIVETTE",
     "price": 199.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/71XokxLRz2L._AC_SL1478_.jpg"
@@ -658,9 +658,9 @@
   },
   {
     "product_id": 29,
-    "title": "Collare per Gattini UVW",
+    "title": "Collare per Gattini TRISTIX",
     "description": "Un collare adorabile per il tuo gattino con campanellino e strass.",
-    "brand": "UVW",
+    "brand": "TRISTIX",
     "price": 19.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/61yY0GkaxuL._AC_SL1500_.jpg",
@@ -682,9 +682,9 @@
   },
   {
     "product_id": 30,
-    "title": "Cuffie Wireless XYZ",
+    "title": "Cuffie Wireless LOBITEC",
     "description": "Cuffie wireless di alta qualità per un'esperienza musicale senza fili.",
-    "brand": "XYZ",
+    "brand": "LOBITEC",
     "price": 79.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/31oAniReIAL._AC_SL1000_.jpg",
@@ -711,9 +711,9 @@
   },
   {
     "product_id": 31,
-    "title": "Abbigliamento Sportivo UVW",
+    "title": "Abbigliamento Sportivo NICHE",
     "description": "Un completo sportivo di alta qualità per le tue attività all'aperto.",
-    "brand": "UVW",
+    "brand": "NICHE",
     "price": 89.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/51NV3kWX9WL._AC_SY500_.jpg",
@@ -730,9 +730,9 @@
   },
   {
     "product_id": 32,
-    "title": "Smartwatch UVW",
+    "title": "Smartwatch MELON",
     "description": "Uno smartwatch con display touchscreen e molteplici funzioni per monitorare la tua attività fisica e molto altro.",
-    "brand": "UVW",
+    "brand": "MELON",
     "price": 199.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/81ioqgA-i4L._AC_SL1500_.jpg"
@@ -753,9 +753,9 @@
   },
   {
     "product_id": 33,
-    "title": "Gioielli in Argento ABC",
+    "title": "Gioielli in Argento PANDORO",
     "description": "Una collezione di gioielli in argento eleganti e raffinati per completare il tuo look.",
-    "brand": "ABC",
+    "brand": "PANDORO",
     "price": 149.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/61XS6eH3AkL._AC_SX466_.jpg"
@@ -770,9 +770,9 @@
   },
   {
     "product_id": 34,
-    "title": "Pantaloni Sportivi LMN",
+    "title": "Pantaloni Sportivi GAZZELLE",
     "description": "Pantaloni sportivi confortevoli e traspiranti per la tua attività fisica preferita.",
-    "brand": "LMN",
+    "brand": "GAZZELLE",
     "price": 49.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/81Lz2nQ6mhS._AC_SY500_.jpg",
@@ -788,9 +788,9 @@
   },
   {
     "product_id": 35,
-    "title": "Tavolo da Pranzo XYZ",
+    "title": "Tavolo da Pranzo CAVOLINI",
     "description": "Un tavolo da pranzo moderno e resistente, perfetto per riunioni familiari e cene con gli amici.",
-    "brand": "XYZ",
+    "brand": "CAVOLINI",
     "price": 499.99,
     "imageURLs": [
       "https://m.media-amazon.com/images/I/41zezB2wXSL._AC_SL1181_.jpg",
