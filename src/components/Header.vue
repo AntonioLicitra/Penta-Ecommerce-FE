@@ -68,9 +68,9 @@ export default
                 <div id="transizione"
                     class=" flex flex-col p-[30px] position absolute top-[80px] right-0  bg-slate-600 w-[180px] h-[170px] transition ease-in-out duration-300 ">
 
-                    <RouterLink to="./shop" class="text-medio hover:underline ">Shop </RouterLink>
-                    <RouterLink to="./saldi" class="text-medio hover:underline ">Saldi </RouterLink>
-                    <RouterLink to="./about" class="text-medio hover:underline">Chi siamo </RouterLink>
+                    <RouterLink to="/shop" class="text-medio hover:underline ">Shop </RouterLink>
+                    <RouterLink to="/saldi" class="text-medio hover:underline ">Saldi </RouterLink>
+                    <RouterLink to="/about" class="text-medio hover:underline">Chi siamo </RouterLink>
 
                 </div>
 
@@ -88,8 +88,8 @@ export default
 <!-- Nav sx -->
 <div class="flex items-center">
     <RouterLink to="/" class="text-grande">A^5</RouterLink>
-    <RouterLink to="./shop" class="text-medio ml-[80px] hover:underline">Shop </RouterLink>
-    <RouterLink to="./saldi" class="text-medio ml-[20px] hover:underline">Saldi </RouterLink>
+    <RouterLink to="/shop" class="text-medio ml-[80px] hover:underline">Shop </RouterLink>
+    <RouterLink to="/saldi" class="text-medio ml-[20px] hover:underline">Saldi </RouterLink>
     <div class="text-medio ml-[20px] hover:underline">Chi siamo </div>
 </div>
 

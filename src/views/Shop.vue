@@ -3,14 +3,14 @@
         <div class="grid grid-cols-4 h-[100%] ">
 
             <!-- TUTTI PRODOTTI -->
-            <RouterLink :to="{path:'/detail/'+ product.product_id}" v-for="product in products" class="flex flex-col justify-end items-center p-[20px] border-2">
+            <div v-for="product in products" class="flex flex-col justify-center items-center p-[20px] border-2">
 
-                <img class="w-[200px] my-auto p-[20px] bg-white hover:w-[300px]" :src="product.imageURLs[0]" alt="">
+                <Slider class="w-[300px] my-auto" :item="product"></Slider>
 
                 <h2>{{ product.title }}</h2>
                 <h2>{{ product.price }}</h2>
 
-            </RouterLink>
+            </div>
 
 
         </div>
@@ -22,10 +22,14 @@
 
 
 <script>
+import Slider from '@/components/Slider.vue'
 
 import jsonProducts from '@/assets/products.json'
 
 export default {
+    components: {
+        Slider
+    },
     data() {
         return {
             products: []
