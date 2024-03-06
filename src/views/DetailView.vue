@@ -1,6 +1,7 @@
 <script>
 import { mapStores, mapState, mapActions } from 'pinia'
 import { useCartStore } from '@/stores/cart';
+import { RouterLink } from 'vue-router';
 
 import json from '@/assets/products.json'
 

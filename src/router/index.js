@@ -6,6 +6,11 @@ import Saldi from '@/views/Saldi.vue'
 import Shop from '@/views/Shop.vue'
 import About from '@/views/About.vue'
 import PaginaProd from '@/views/PaginaProd.vue'
+import Elettronica from '@/views/Elettronica.vue'
+import Fotografia from '@/views/Fotografia.vue'
+import Elettrodomestici from '@/views/Elettrodomestici.vue'
+import Gaming from '@/views/Gaming.vue'
+import Casa from '@/views/Casa.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,6 +50,31 @@ const router = createRouter({
       path: '/PaginaProd',
       name: 'PaginaProd',
       component: PaginaProd
+    },
+    {
+      path: '/elettronica',
+      name: 'Elettronica',
+      component: Elettronica
+    },
+    {
+      path: '/fotografia',
+      name: 'Fotografia',
+      component: Fotografia
+    },
+    {
+      path: '/elettrodomestici',
+      name: 'Elettrodomestici',
+      component: Elettrodomestici
+    },
+    {
+      path: '/gaming',
+      name: 'Gaming',
+      component: Gaming
+    },
+    {
+      path: '/casa',
+      name: 'Casa',
+      component: Casa
     }
 
   ]
