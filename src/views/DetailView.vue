@@ -58,42 +58,14 @@ export default {
             <p class="text-piccolo mt-5">Disponibilità: {{ product.quantity }}</p>
             <input class="mt-[50px] p-[5px] border-[1px] rounded-md border-black" type="number" v-model="quantity" min="1" :max="product.Quantity">
             <button class="mt-[5px] bg-[#294f94ff] hover:bg-white hover:text-[#294f94ff] text-white text-medio font-medium lg:w-[400px] w-[200px] py-2 border border-[#294f94ff] border-[3px] rounded-md " @click="buttonClick">Aggiungi al carrello</button>
-        
+            <button class="text-[14px]" @click="emptyCart">Svuota carrello</button>
+            <p v-for="cart in cartView">
+       Prodotto: {{ cart.product.title }}
+       Quantità: {{ cart.quantity }}
+    </p>
         </div>
     </section>
     
     
-    
-    
-    
-    
-    
-    
-    
-    <div v-if="product">
-        
-        <button @click="buttonClick">| Add |</button>
-        <input type="number" v-model="quantity" min="1" :max="product.Quantity">
-
-        <hr>
-
-        <h1>Product</h1>
-        <h2>{{ product.title }}</h2>
-        <p>{{ product.description }}</p>
-        <p>Prezzo: {{ product.price }}</p>
-        <p>Quantità: {{ product.quantity }}</p>
-        <p>Marca: {{ product.brand }}</p>
-        <!-- Creare view per immagini e review  -->
-        <!-- <img width="100px" v-for="imageURL in product.imageURLs" :src="imageURL" alt="" style="display: inline-block;"> -->
-        <p>reviews</p>
-    </div>
-
-    <hr>
-
-    Carrello: <button @click="emptyCart">| Svuota |</button>
-    <p v-for="cart in cartView">
-       Prodotto: {{ cart.product.title }}
-       Quantità: {{ cart.quantity }}
-    </p>
-
+ 
 </template>
