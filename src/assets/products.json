@@ -1,813 +1,813 @@
 [
   {
-    "ID_Product": 1,
-    "Title": "Smartphone XYZ",
-    "Description": "Un fantastico smartphone con caratteristiche innovative.",
-    "Brand": "XYZ",
-    "Price": 499.99,
-    "ImageURLs": [
+    "product_id": 1,
+    "title": "Smartphone XYZ",
+    "description": "Un fantastico smartphone con caratteristiche innovative.",
+    "brand": "XYZ",
+    "price": 499.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71pncAKTQDL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/81ecdEvQN3L._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "telefonia"
     ],
-    "Quantity": 100,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 100,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 123,
-        "Rating": 5,
-        "Comment": "Eccezionale, prestazioni incredibili!"
+        "user_id": 123,
+        "rating": 5,
+        "comment": "Eccezionale, prestazioni incredibili!"
       },
       {
-        "ID_User": 456,
-        "Rating": 4,
-        "Comment": "Buon rapporto qualità-prezzo."
+        "user_id": 456,
+        "rating": 4,
+        "comment": "Buon rapporto qualità-prezzo."
       }
     ]
   },
   {
-    "ID_Product": 2,
-    "Title": "Lavatrice ABC",
-    "Description": "Una lavatrice efficiente per tutte le tue esigenze di lavaggio.",
-    "Brand": "ABC",
-    "Price": 699.99,
-    "ImageURLs": [
+    "product_id": 2,
+    "title": "Lavatrice ABC",
+    "description": "Una lavatrice efficiente per tutte le tue esigenze di lavaggio.",
+    "brand": "ABC",
+    "price": 699.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71yZuQn7c0L._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71o+wJyZ5wL._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "casa"
     ],
-    "Quantity": 50,
-    "Discount": 0.1,
-    "Reviews": [
+    "quantity": 50,
+    "discount": 0.1,
+    "reviews": [
       {
-        "ID_User": 789,
-        "Rating": 5,
-        "Comment": "Funziona perfettamente, molto soddisfatto."
+        "user_id": 789,
+        "rating": 5,
+        "comment": "Funziona perfettamente, molto soddisfatto."
       }
     ]
   },
   {
-    "ID_Product": 3,
-    "Title": "Frigorifero DEF",
-    "Description": "Un frigorifero spazioso e energetico per conservare i tuoi alimenti in modo efficiente.",
-    "Brand": "DEF",
-    "Price": 899.99,
-    "ImageURLs": [
+    "product_id": 3,
+    "title": "Frigorifero DEF",
+    "description": "Un frigorifero spazioso e energetico per conservare i tuoi alimenti in modo efficiente.",
+    "brand": "DEF",
+    "price": 899.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/7161aFV234L._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/51xIJ4raayL._AC_SL1007_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "cucina"
     ],
-    "Quantity": 20,
-    "Discount": 0,
-    "Reviews": []
+    "quantity": 20,
+    "discount": 0,
+    "reviews": []
   },
   {
-    "ID_Product": 4,
-    "Title": "Macchina da Caffè GHI",
-    "Description": "Una macchina da caffè automatica per gustare caffè fresco ogni mattina.",
-    "Brand": "GHI",
-    "Price": 299.99,
-    "ImageURLs": [
+    "product_id": 4,
+    "title": "Macchina da Caffè GHI",
+    "description": "Una macchina da caffè automatica per gustare caffè fresco ogni mattina.",
+    "brand": "GHI",
+    "price": 299.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71Lb4rcgLuL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/61fjSPGMxdL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/6185GuwKSbL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71N9Gr-Fq-L._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "cucina"
     ],
-    "Quantity": 40,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 40,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 135,
-        "Rating": 4,
-        "Comment": "Facile da usare e produce un ottimo caffè."
+        "user_id": 135,
+        "rating": 4,
+        "comment": "Facile da usare e produce un ottimo caffè."
       },
       {
-        "ID_User": 789,
-        "Rating": 5,
-        "Comment": "Mi piace molto, ha migliorato le mie mattine!"
+        "user_id": 789,
+        "rating": 5,
+        "comment": "Mi piace molto, ha migliorato le mie mattine!"
       }
     ]
   },
   {
-    "ID_Product": 5,
-    "Title": "Tostapane UVW",
-    "Description": "Un tostapane elegante e versatile per preparare deliziose fette di pane tostato.",
-    "Brand": "UVW",
-    "Price": 49.99,
-    "ImageURLs": [
+    "product_id": 5,
+    "title": "Tostapane UVW",
+    "description": "Un tostapane elegante e versatile per preparare deliziose fette di pane tostato.",
+    "brand": "UVW",
+    "price": 49.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/61UU2IfguuL._AC_SL1000_.jpg",
       "https://m.media-amazon.com/images/I/51Q41mupLiL._AC_SL1000_.jpg",
       "https://m.media-amazon.com/images/I/61wjiyjEndL._AC_SL1000_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "cucina"
     ],
-    "Quantity": 40,
-    "Discount": 0,
-    "Reviews": []
+    "quantity": 40,
+    "discount": 0,
+    "reviews": []
   },
   {
-    "ID_Product": 6,
-    "Title": "Fotocamera DSLR 123",
-    "Description": "Una fotocamera digitale reflex per catturare momenti indimenticabili.",
-    "Brand": "123",
-    "Price": 799.99,
-    "ImageURLs": [
+    "product_id": 6,
+    "title": "Fotocamera DSLR 123",
+    "description": "Una fotocamera digitale reflex per catturare momenti indimenticabili.",
+    "brand": "123",
+    "price": 799.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/814wklXhBcL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/91OJ5Nhpb8L._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/81Tuw8B7+4L._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "fotografia"
     ],
-    "Quantity": 20,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 20,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 123,
-        "Rating": 5,
-        "Comment": "Eccezionale qualità delle immagini, molto soddisfatto dell'acquisto."
+        "user_id": 123,
+        "rating": 5,
+        "comment": "Eccezionale qualità delle immagini, molto soddisfatto dell'acquisto."
       },
       {
-        "ID_User": 456,
-        "Rating": 4,
-        "Comment": "Buon rapporto qualità-prezzo, consigliato agli appassionati di fotografia."
+        "user_id": 456,
+        "rating": 4,
+        "comment": "Buon rapporto qualità-prezzo, consigliato agli appassionati di fotografia."
       }
     ]
   },
   {
-    "ID_Product": 7,
-    "Title": "Cucina a Gas LMN",
-    "Description": "Una cucina a gas moderna e efficiente per preparare deliziosi piatti.",
-    "Brand": "LMN",
-    "Price": 1299.99,
-    "ImageURLs": [
+    "product_id": 7,
+    "title": "Cucina a Gas LMN",
+    "description": "Una cucina a gas moderna e efficiente per preparare deliziosi piatti.",
+    "brand": "LMN",
+    "price": 1299.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/61TXHd1L9ML._AC_SL1418_.jpg",
       "https://m.media-amazon.com/images/I/61sD-xfuPBL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71tqUu-c8qL._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "cucina"
     ],
-    "Quantity": 15,
-    "Discount": 0.05,
-    "Reviews": []
+    "quantity": 15,
+    "discount": 0.05,
+    "reviews": []
   },
   {
-    "ID_Product": 8,
-    "Title": "Stampante XYZ",
-    "Description": "Una stampante di alta qualità per stampare documenti e foto con facilità.",
-    "Brand": "XYZ",
-    "Price": 199.99,
-    "ImageURLs": [
+    "product_id": 8,
+    "title": "Stampante XYZ",
+    "description": "Una stampante di alta qualità per stampare documenti e foto con facilità.",
+    "brand": "XYZ",
+    "price": 199.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/51TRtVOGZLL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/41d7FeYHsmL._AC_SL1101_.jpg",
       "https://m.media-amazon.com/images/I/51lBa53u62L._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "ufficio"
     ],
-    "Quantity": 30,
-    "Discount": 0,
-    "Reviews": []
+    "quantity": 30,
+    "discount": 0,
+    "reviews": []
   },
   {
-    "ID_Product": 9,
-    "Title": "Asciugatrice ABC",
-    "Description": "Un'asciugatrice affidabile per asciugare i tuoi vestiti in poco tempo.",
-    "Brand": "ABC",
-    "Price": 599.99,
-    "ImageURLs": [
+    "product_id": 9,
+    "title": "Asciugatrice ABC",
+    "description": "Un'asciugatrice affidabile per asciugare i tuoi vestiti in poco tempo.",
+    "brand": "ABC",
+    "price": 599.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/61NOiNaMMsL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/61InNofv9qL._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "casa"
     ],
-    "Quantity": 25,
-    "Discount": 0,
-    "Reviews": []
+    "quantity": 25,
+    "discount": 0,
+    "reviews": []
   },
   {
-    "ID_Product": 10,
-    "Title": "Mouse da Gioco RGB",
-    "Description": "Un mouse da gioco con illuminazione RGB e prestazioni di alta precisione.",
-    "Brand": "XYZ",
-    "Price": 79.99,
-    "ImageURLs": [
+    "product_id": 10,
+    "title": "Mouse da Gioco RGB",
+    "description": "Un mouse da gioco con illuminazione RGB e prestazioni di alta precisione.",
+    "brand": "XYZ",
+    "price": 79.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/713RxxjGIGL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71M82kEkXpL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71bfMn5xeWL._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "gaming"
     ],
-    "Quantity": 50,
-    "Discount": 0.5,
-    "Reviews": [
+    "quantity": 50,
+    "discount": 0.5,
+    "reviews": [
       {
-        "ID_User": 135,
-        "Rating": 5,
-        "Comment": "Perfetto! Oltrettuto è in sconto del 50% proprio ora"
+        "user_id": 135,
+        "rating": 5,
+        "comment": "Perfetto! Oltrettuto è in sconto del 50% proprio ora"
       },
       {
-        "ID_User": 789,
-        "Rating": 5,
-        "Comment": "Così posso spaccare il culo a tutti"
+        "user_id": 789,
+        "rating": 5,
+        "comment": "Così posso spaccare il culo a tutti"
       }
     ]
   },
   {
-    "ID_Product": 11,
-    "Title": "Tastiera Meccanica RGB",
-    "Description": "Una tastiera meccanica con retroilluminazione RGB e layout italiano.",
-    "Brand": "LMN",
-    "Price": 129.99,
-    "ImageURLs": [
+    "product_id": 11,
+    "title": "Tastiera Meccanica RGB",
+    "description": "Una tastiera meccanica con retroilluminazione RGB e layout italiano.",
+    "brand": "LMN",
+    "price": 129.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/61FHqyzzTbL._AC_SL1345_.jpg",
       "https://m.media-amazon.com/images/I/71ndSL6wwHL._AC_SL1430_.jpg",
       "https://m.media-amazon.com/images/I/71FDDPq50XL._AC_SL1459_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "gaming"
     ],
-    "Quantity": 42,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 42,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 135,
-        "Rating": 4,
-        "Comment": "Bella e funzionale. Nessun problema particolare. Un po' difficile l'installazione"
+        "user_id": 135,
+        "rating": 4,
+        "comment": "Bella e funzionale. Nessun problema particolare. Un po' difficile l'installazione"
       }
     ]
   },
   {
-    "ID_Product": 12,
-    "Title": "Teiera Elettrica XYZ",
-    "Description": "Una teiera elettrica con controllo della temperatura per preparare il tè perfetto.",
-    "Brand": "XYZ",
-    "Price": 39.99,
-    "ImageURLs": [
+    "product_id": 12,
+    "title": "Teiera Elettrica XYZ",
+    "description": "Una teiera elettrica con controllo della temperatura per preparare il tè perfetto.",
+    "brand": "XYZ",
+    "price": 39.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/712oWV9JVkL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/410i50y426L._AC_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "cucina"
     ],
-    "Quantity": 55,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 55,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 135,
-        "Rating": 4,
-        "Comment": "Mi piace il te"
+        "user_id": 135,
+        "rating": 4,
+        "comment": "Mi piace il te"
       }
     ]
   },
   {
-    "ID_Product": 13,
-    "Title": "Console di Gioco ABC",
-    "Description": "Una console di gioco potente e versatile per un'esperienza di gioco senza precedenti.",
-    "Brand": "ABC",
-    "Price": 399.99,
-    "ImageURLs": [
+    "product_id": 13,
+    "title": "Console di Gioco ABC",
+    "description": "Una console di gioco potente e versatile per un'esperienza di gioco senza precedenti.",
+    "brand": "ABC",
+    "price": 399.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71amc6jMM4S._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71vFyhZ0EoL._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "gaming"
     ],
-    "Quantity": 55,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 55,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 345,
-        "Rating": 4,
-        "Comment": "Divertimento assicurato!"
+        "user_id": 345,
+        "rating": 4,
+        "comment": "Divertimento assicurato!"
       }
     ]
   },
   {
-    "ID_Product": 14,
-    "Title": "Forno a Microonde DEF",
-    "Description": "Un forno a microonde compatto e efficiente per riscaldare e cuocere cibi rapidamente.",
-    "Brand": "DEF",
-    "Price": 149.99,
-    "ImageURLs": [
+    "product_id": 14,
+    "title": "Forno a Microonde DEF",
+    "description": "Un forno a microonde compatto e efficiente per riscaldare e cuocere cibi rapidamente.",
+    "brand": "DEF",
+    "price": 149.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/41vG8wfGqSL._AC_SL1000_.jpg",
       "https://m.media-amazon.com/images/I/41TCQuVYFGL._AC_SL1000_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "cucina"
     ],
-    "Quantity": 40,
-    "Discount": 0.1,
-    "Reviews": [
+    "quantity": 40,
+    "discount": 0.1,
+    "reviews": [
       {
-        "ID_User": 135,
-        "Rating": 4,
-        "Comment": "Buona qualità e facile da usare."
+        "user_id": 135,
+        "rating": 4,
+        "comment": "Buona qualità e facile da usare."
       },
       {
-        "ID_User": 789,
-        "Rating": 5,
-        "Comment": "Molto soddisfatto del mio acquisto."
+        "user_id": 789,
+        "rating": 5,
+        "comment": "Molto soddisfatto del mio acquisto."
       }
     ]
   },
   {
-    "ID_Product": 15,
-    "Title": "Videocamera 4K LMN",
-    "Description": "Una videocamera compatta con registrazione video in alta risoluzione.",
-    "Brand": "LMN",
-    "Price": 899.99,
-    "ImageURLs": [
+    "product_id": 15,
+    "title": "Videocamera 4K LMN",
+    "description": "Una videocamera compatta con registrazione video in alta risoluzione.",
+    "brand": "LMN",
+    "price": 899.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/81KfN+tOWuL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71qYXR7-FQL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71Hav2VC45L._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "fotografia"
     ],
-    "Quantity": 20,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 20,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 120,
-        "Rating": 5,
-        "Comment": "Ottima fotocamera per professionisti"
+        "user_id": 120,
+        "rating": 5,
+        "comment": "Ottima fotocamera per professionisti"
       }
     ]
   },
   {
-    "ID_Product": 16,
-    "Title": "Bollitore Elettrico UVW",
-    "Description": "Un bollitore elettrico rapido e affidabile per preparare bevande calde in pochi minuti.",
-    "Brand": "UVW",
-    "Price": 29.99,
-    "ImageURLs": [
+    "product_id": 16,
+    "title": "Bollitore Elettrico UVW",
+    "description": "Un bollitore elettrico rapido e affidabile per preparare bevande calde in pochi minuti.",
+    "brand": "UVW",
+    "price": 29.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/61oIxYZ2gOL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/61Xn3YajglL._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "cucina"
     ],
-    "Quantity": 30,
-    "Discount": 0,
-    "Reviews": []
+    "quantity": 30,
+    "discount": 0,
+    "reviews": []
   },
   {
-    "ID_Product": 17,
-    "Title": "Monitor LED XYZ",
-    "Description": "Un monitor LED ad alta definizione per un'esperienza visiva impeccabile.",
-    "Brand": "XYZ",
-    "Price": 249.99,
-    "ImageURLs": [
+    "product_id": 17,
+    "title": "Monitor LED XYZ",
+    "description": "Un monitor LED ad alta definizione per un'esperienza visiva impeccabile.",
+    "brand": "XYZ",
+    "price": 249.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71tjm0zXupL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/711nU9B3WQL._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica"
     ],
-    "Quantity": 25,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 25,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 33,
-        "Rating": 2,
-        "Comment": "Vedo ogni singolo pixel. Monitor osceno"
+        "user_id": 33,
+        "rating": 2,
+        "comment": "Vedo ogni singolo pixel. Monitor osceno"
       }
     ]
   },
   {
-    "ID_Product": 18,
-    "Title": "Aspirapolvere Robot ABC",
-    "Description": "Un aspirapolvere robot intelligente per mantenere puliti i tuoi pavimenti senza sforzo.",
-    "Brand": "ABC",
-    "Price": 299.99,
-    "ImageURLs": [
+    "product_id": 18,
+    "title": "Aspirapolvere Robot ABC",
+    "description": "Un aspirapolvere robot intelligente per mantenere puliti i tuoi pavimenti senza sforzo.",
+    "brand": "ABC",
+    "price": 299.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/619TvTYML3L._AC_SL1500_.jpg",
       "https://example.com/images/aspirapolvere_abc_2.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "casa"
     ],
-    "Quantity": 25,
-    "Discount": 0.1,
-    "Reviews": [
+    "quantity": 25,
+    "discount": 0.1,
+    "reviews": [
       {
-        "ID_User": 123,
-        "Rating": 5,
-        "Comment": "Fantastico! Mi ha cambiato la vita."
+        "user_id": 123,
+        "rating": 5,
+        "comment": "Fantastico! Mi ha cambiato la vita."
       },
       {
-        "ID_User": 456,
-        "Rating": 4,
-        "Comment": "Fa bene il suo lavoro, anche se ogni tanto si blocca sotto i mobili."
+        "user_id": 456,
+        "rating": 4,
+        "comment": "Fa bene il suo lavoro, anche se ogni tanto si blocca sotto i mobili."
       }
     ]
   },
   {
-    "ID_Product": 19,
-    "Title": "Tritatutto da Cucina LMN",
-    "Description": "Un tritatutto versatile per preparare salse, pesti e molto altro.",
-    "Brand": "LMN",
-    "Price": 49.99,
-    "ImageURLs": [
+    "product_id": 19,
+    "title": "Tritatutto da Cucina LMN",
+    "description": "Un tritatutto versatile per preparare salse, pesti e molto altro.",
+    "brand": "LMN",
+    "price": 49.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/618BRH6RcaL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/7154owHzu0L._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/41DQGFaV9-L._AC_SL1230_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "cucina"
     ],
-    "Quantity": 39,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 39,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 22,
-        "Rating": 5,
-        "Comment": "Trita davvero tutto! Mi serviva della polvere e ho tritato delle rocce"
+        "user_id": 22,
+        "rating": 5,
+        "comment": "Trita davvero tutto! Mi serviva della polvere e ho tritato delle rocce"
       }
     ]
   },
   {
-    "ID_Product": 20,
-    "Title": "Impianto Home Theater XYZ",
-    "Description": "Un sistema home theater completo per un'esperienza audio immersiva.",
-    "Brand": "XYZ",
-    "Price": 799.99,
-    "ImageURLs": [
+    "product_id": 20,
+    "title": "Impianto Home Theater XYZ",
+    "description": "Un sistema home theater completo per un'esperienza audio immersiva.",
+    "brand": "XYZ",
+    "price": 799.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71pvDroWNGL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/612Vml777vL._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica"
     ],
-    "Quantity": 10,
-    "Discount": 0.2,
-    "Reviews": [
+    "quantity": 10,
+    "discount": 0.2,
+    "reviews": [
       {
-        "ID_User": 13,
-        "Rating": 4,
-        "Comment": "Al 20% di sconto è un vero affare!"
+        "user_id": 13,
+        "rating": 4,
+        "comment": "Al 20% di sconto è un vero affare!"
       }
     ]
   },
   {
-    "ID_Product": 21,
-    "Title": "Maglione in Lana ABC",
-    "Description": "Un maglione in lana caldo e confortevole per l'inverno.",
-    "Brand": "ABC",
-    "Price": 79.99,
-    "ImageURLs": [
+    "product_id": 21,
+    "title": "Maglione in Lana ABC",
+    "description": "Un maglione in lana caldo e confortevole per l'inverno.",
+    "brand": "ABC",
+    "price": 79.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/918LgnKhEnL._AC_SY500_.jpg",
       "https://m.media-amazon.com/images/I/91JF6n2wTdL._AC_SY500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "vestiti da uomo"
     ],
-    "Quantity": 60,
-    "Discount": 0.1,
-    "Reviews": []
+    "quantity": 60,
+    "discount": 0.1,
+    "reviews": []
   },
   {
-    "ID_Product": 22,
-    "Title": "Borsa a Tracolla XYZ",
-    "Description": "Una borsa a tracolla elegante e pratica per il tuo look quotidiano.",
-    "Brand": "XYZ",
-    "Price": 79.99,
-    "ImageURLs": [
+    "product_id": 22,
+    "title": "Borsa a Tracolla XYZ",
+    "description": "Una borsa a tracolla elegante e pratica per il tuo look quotidiano.",
+    "brand": "XYZ",
+    "price": 79.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71rd4W6f9NL._AC_SY500_.jpg",
       "https://m.media-amazon.com/images/I/61dz4I-YViL._AC_SY500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "vestiti da donna"
     ],
-    "Quantity": 70,
-    "Discount": 0.15,
-    "Reviews": []
+    "quantity": 70,
+    "discount": 0.15,
+    "reviews": []
   },
   {
-    "ID_Product": 23,
-    "Title": "Scarpe da Corsa ABC",
-    "Description": "Scarpe da corsa leggere e traspiranti per prestazioni ottimali durante l'allenamento.",
-    "Brand": "ABC",
-    "Price": 129.99,
-    "ImageURLs": [
+    "product_id": 23,
+    "title": "Scarpe da Corsa ABC",
+    "description": "Scarpe da corsa leggere e traspiranti per prestazioni ottimali durante l'allenamento.",
+    "brand": "ABC",
+    "price": 129.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/718pCeauTlL._AC_SY500_.jpg",
       "https://m.media-amazon.com/images/I/61OUmklp4ML._AC_SY500_.jpg",
       "https://m.media-amazon.com/images/I/61OZCxtFMqL._AC_SY500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "vestiti da uomo",
       "scarpe"
     ],
-    "Quantity": 80,
-    "Discount": 0,
-    "Reviews": []
+    "quantity": 80,
+    "discount": 0,
+    "reviews": []
   },
   {
-    "ID_Product": 24,
-    "Title": "Lavastoviglie LMN",
-    "Description": "Una lavastoviglie silenziosa e efficiente per pulire i tuoi piatti in modo rapido e senza sforzo.",
-    "Brand": "LMN",
-    "Price": 799.99,
-    "ImageURLs": [
+    "product_id": 24,
+    "title": "Lavastoviglie LMN",
+    "description": "Una lavastoviglie silenziosa e efficiente per pulire i tuoi piatti in modo rapido e senza sforzo.",
+    "brand": "LMN",
+    "price": 799.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/41bRwCuiVWL.__AC_SY445_SX342_QL70_ML2_.jpg",
       "https://m.media-amazon.com/images/I/51kGoITDSyL._AC_SX679_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettrodomestici",
       "casa"
     ],
-    "Quantity": 30,
-    "Discount": 0.1,
-    "Reviews": []
+    "quantity": 30,
+    "discount": 0.1,
+    "reviews": []
   },
   {
-    "ID_Product": 25,
-    "Title": "Giacca in Pelle XYZ",
-    "Description": "Una giacca in pelle elegante e resistente per un look alla moda in ogni occasione.",
-    "Brand": "XYZ",
-    "Price": 199.99,
-    "ImageURLs": [
+    "product_id": 25,
+    "title": "Giacca in Pelle XYZ",
+    "description": "Una giacca in pelle elegante e resistente per un look alla moda in ogni occasione.",
+    "brand": "XYZ",
+    "price": 199.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71UJcWRoYsL._AC_SX466_.jpg",
       "https://m.media-amazon.com/images/I/71rq9fR+mHL._AC_SY500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "vestiti da uomo",
       "abbigliamento"
     ],
-    "Quantity": 50,
-    "Discount": 0.2,
-    "Reviews": [
+    "quantity": 50,
+    "discount": 0.2,
+    "reviews": [
       {
-        "ID_User": 135,
-        "Rating": 5,
-        "Comment": "Bellissima giacca, ottima qualità della pelle!"
+        "user_id": 135,
+        "rating": 5,
+        "comment": "Bellissima giacca, ottima qualità della pelle!"
       },
       {
-        "ID_User": 789,
-        "Rating": 4,
-        "Comment": "Buon prezzo per una giacca di questa qualità."
+        "user_id": 789,
+        "rating": 4,
+        "comment": "Buon prezzo per una giacca di questa qualità."
       }
     ]
   },
   {
-    "ID_Product": 26,
-    "Title": "Televisore Smart UVW",
-    "Description": "Un televisore smart con risoluzione 4K per un'esperienza di visione eccezionale.",
-    "Brand": "UVW",
-    "Price": 999.99,
-    "ImageURLs": [
+    "product_id": 26,
+    "title": "Televisore Smart UVW",
+    "description": "Un televisore smart con risoluzione 4K per un'esperienza di visione eccezionale.",
+    "brand": "UVW",
+    "price": 999.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71jaCqy3OyL._AC_SX679_.jpg",
       "https://m.media-amazon.com/images/I/71JbNTFZTyL._AC_SX425_.jpg",
       "https://m.media-amazon.com/images/I/617rmyfHP+L._AC_SX679_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "TV"
     ],
-    "Quantity": 20,
-    "Discount": 0.1,
-    "Reviews": [
+    "quantity": 20,
+    "discount": 0.1,
+    "reviews": [
       {
-        "ID_User": 246,
-        "Rating": 5,
-        "Comment": "Qualità dell'immagine sorprendente, molto soddisfatto."
+        "user_id": 246,
+        "rating": 5,
+        "comment": "Qualità dell'immagine sorprendente, molto soddisfatto."
       },
       {
-        "ID_User": 789,
-        "Rating": 4,
-        "Comment": "Facile da configurare e ottima connettività con le app."
+        "user_id": 789,
+        "rating": 4,
+        "comment": "Facile da configurare e ottima connettività con le app."
       }
     ]
   },
   {
-    "ID_Product": 27,
-    "Title": "Maglietta Stampa Gattini ABC",
-    "Description": "Una maglietta carina con stampa di gattini, perfetta per gli amanti dei gatti.",
-    "Brand": "ABC",
-    "Price": 29.99,
-    "ImageURLs": [
+    "product_id": 27,
+    "title": "Maglietta Stampa Gattini ABC",
+    "description": "Una maglietta carina con stampa di gattini, perfetta per gli amanti dei gatti.",
+    "brand": "ABC",
+    "price": 29.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/A1vJUKBjc2L._CLa%7C2140%2C2000%7C81iGMVBHgmL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX385_.png"
     ],
-    "Categories": [
+    "categories": [
       "vestiti da donna",
       "abbigliamento"
     ],
-    "Quantity": 100,
-    "Discount": 0,
-    "Reviews": []
+    "quantity": 100,
+    "discount": 0,
+    "reviews": []
   },
   {
-    "ID_Product": 28,
-    "Title": "Macchina da Scrivere Vintage LMN",
-    "Description": "Una macchina da scrivere vintage per gli appassionati di scrittura retrò.",
-    "Brand": "LMN",
-    "Price": 199.99,
-    "ImageURLs": [
+    "product_id": 28,
+    "title": "Macchina da Scrivere Vintage LMN",
+    "description": "Una macchina da scrivere vintage per gli appassionati di scrittura retrò.",
+    "brand": "LMN",
+    "price": 199.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/71XokxLRz2L._AC_SL1478_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "ufficio"
     ],
-    "Quantity": 15,
-    "Discount": 0.05,
-    "Reviews": [
+    "quantity": 15,
+    "discount": 0.05,
+    "reviews": [
       {
-        "ID_User": 246,
-        "Rating": 4,
-        "Comment": "Bellissimo design vintage, ma un po' difficile da usare."
+        "user_id": 246,
+        "rating": 4,
+        "comment": "Bellissimo design vintage, ma un po' difficile da usare."
       },
       {
-        "ID_User": 789,
-        "Rating": 5,
-        "Comment": "Amo la sensazione di scrivere su questa macchina da scrivere!"
+        "user_id": 789,
+        "rating": 5,
+        "comment": "Amo la sensazione di scrivere su questa macchina da scrivere!"
       }
     ]
   },
   {
-    "ID_Product": 29,
-    "Title": "Collare per Gattini UVW",
-    "Description": "Un collare adorabile per il tuo gattino con campanellino e strass.",
-    "Brand": "UVW",
-    "Price": 19.99,
-    "ImageURLs": [
+    "product_id": 29,
+    "title": "Collare per Gattini UVW",
+    "description": "Un collare adorabile per il tuo gattino con campanellino e strass.",
+    "brand": "UVW",
+    "price": 19.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/61yY0GkaxuL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71Kp1KFNLVL._AC_SL1001_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "gattini",
       "accessori"
     ],
-    "Quantity": 50,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 50,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 123,
-        "Rating": 5,
-        "Comment": "Adorabile e di ottima qualità."
+        "user_id": 123,
+        "rating": 5,
+        "comment": "Adorabile e di ottima qualità."
       }
     ]
   },
   {
-    "ID_Product": 30,
-    "Title": "Cuffie Wireless XYZ",
-    "Description": "Cuffie wireless di alta qualità per un'esperienza musicale senza fili.",
-    "Brand": "XYZ",
-    "Price": 79.99,
-    "ImageURLs": [
+    "product_id": 30,
+    "title": "Cuffie Wireless XYZ",
+    "description": "Cuffie wireless di alta qualità per un'esperienza musicale senza fili.",
+    "brand": "XYZ",
+    "price": 79.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/31oAniReIAL._AC_SL1000_.jpg",
       "https://m.media-amazon.com/images/I/31cysGQgN1L._AC_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "audio"
     ],
-    "Quantity": 60,
-    "Discount": 0.1,
-    "Reviews": [
+    "quantity": 60,
+    "discount": 0.1,
+    "reviews": [
       {
-        "ID_User": 246,
-        "Rating": 4,
-        "Comment": "Ottime cuffie, suono nitido e bassi potenti."
+        "user_id": 246,
+        "rating": 4,
+        "comment": "Ottime cuffie, suono nitido e bassi potenti."
       },
       {
-        "ID_User": 789,
-        "Rating": 5,
-        "Comment": "Comode da indossare per lungo tempo e qualità audio eccezionale."
+        "user_id": 789,
+        "rating": 5,
+        "comment": "Comode da indossare per lungo tempo e qualità audio eccezionale."
       }
     ]
   },
   {
-    "ID_Product": 31,
-    "Title": "Abbigliamento Sportivo UVW",
-    "Description": "Un completo sportivo di alta qualità per le tue attività all'aperto.",
-    "Brand": "UVW",
-    "Price": 89.99,
-    "ImageURLs": [
+    "product_id": 31,
+    "title": "Abbigliamento Sportivo UVW",
+    "description": "Un completo sportivo di alta qualità per le tue attività all'aperto.",
+    "brand": "UVW",
+    "price": 89.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/51NV3kWX9WL._AC_SY500_.jpg",
       "https://m.media-amazon.com/images/I/61+mvhCSp8L._AC_SY500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "vestiti da uomo",
       "vestiti da donna",
       "abbigliamento"
     ],
-    "Quantity": 50,
-    "Discount": 0.05,
-    "Reviews": []
+    "quantity": 50,
+    "discount": 0.05,
+    "reviews": []
   },
   {
-    "ID_Product": 32,
-    "Title": "Smartwatch UVW",
-    "Description": "Uno smartwatch con display touchscreen e molteplici funzioni per monitorare la tua attività fisica e molto altro.",
-    "Brand": "UVW",
-    "Price": 199.99,
-    "ImageURLs": [
+    "product_id": 32,
+    "title": "Smartwatch UVW",
+    "description": "Uno smartwatch con display touchscreen e molteplici funzioni per monitorare la tua attività fisica e molto altro.",
+    "brand": "UVW",
+    "price": 199.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/81ioqgA-i4L._AC_SL1500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "elettronica",
       "accessori"
     ],
-    "Quantity": 50,
-    "Discount": 0,
-    "Reviews": [
+    "quantity": 50,
+    "discount": 0,
+    "reviews": [
       {
-        "ID_User": 789,
-        "Rating": 5,
-        "Comment": "Ottimo smartwatch, funzioni complete e design elegante."
+        "user_id": 789,
+        "rating": 5,
+        "comment": "Ottimo smartwatch, funzioni complete e design elegante."
       }
     ]
   },
   {
-    "ID_Product": 33,
-    "Title": "Gioielli in Argento ABC",
-    "Description": "Una collezione di gioielli in argento eleganti e raffinati per completare il tuo look.",
-    "Brand": "ABC",
-    "Price": 149.99,
-    "ImageURLs": [
+    "product_id": 33,
+    "title": "Gioielli in Argento ABC",
+    "description": "Una collezione di gioielli in argento eleganti e raffinati per completare il tuo look.",
+    "brand": "ABC",
+    "price": 149.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/61XS6eH3AkL._AC_SX466_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "accessori",
       "gioielli"
     ],
-    "Quantity": 30,
-    "Discount": 0.1,
-    "Reviews": []
+    "quantity": 30,
+    "discount": 0.1,
+    "reviews": []
   },
   {
-    "ID_Product": 34,
-    "Title": "Pantaloni Sportivi LMN",
-    "Description": "Pantaloni sportivi confortevoli e traspiranti per la tua attività fisica preferita.",
-    "Brand": "LMN",
-    "Price": 49.99,
-    "ImageURLs": [
+    "product_id": 34,
+    "title": "Pantaloni Sportivi LMN",
+    "description": "Pantaloni sportivi confortevoli e traspiranti per la tua attività fisica preferita.",
+    "brand": "LMN",
+    "price": 49.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/81Lz2nQ6mhS._AC_SY500_.jpg",
       "https://m.media-amazon.com/images/I/81XuNgo7PXS._AC_SY500_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "vestiti da uomo",
       "abbigliamento sportivo"
     ],
-    "Quantity": 60,
-    "Discount": 0.05,
-    "Reviews": []
+    "quantity": 60,
+    "discount": 0.05,
+    "reviews": []
   },
   {
-    "ID_Product": 35,
-    "Title": "Tavolo da Pranzo XYZ",
-    "Description": "Un tavolo da pranzo moderno e resistente, perfetto per riunioni familiari e cene con gli amici.",
-    "Brand": "XYZ",
-    "Price": 499.99,
-    "ImageURLs": [
+    "product_id": 35,
+    "title": "Tavolo da Pranzo XYZ",
+    "description": "Un tavolo da pranzo moderno e resistente, perfetto per riunioni familiari e cene con gli amici.",
+    "brand": "XYZ",
+    "price": 499.99,
+    "imageURLs": [
       "https://m.media-amazon.com/images/I/41zezB2wXSL._AC_SL1181_.jpg",
       "https://m.media-amazon.com/images/I/719NP6jVXQL._AC_SL1181_.jpg",
       "https://m.media-amazon.com/images/I/61WpzchrumL._AC_SL1181_.jpg"
     ],
-    "Categories": [
+    "categories": [
       "arredamento",
       "casa"
     ],
-    "Quantity": 20,
-    "Discount": 0.1,
-    "Reviews": [
+    "quantity": 20,
+    "discount": 0.1,
+    "reviews": [
       {
-        "ID_User": 789,
-        "Rating": 5,
-        "Comment": "Bellissimo design e qualità costruttiva."
+        "user_id": 789,
+        "rating": 5,
+        "comment": "Bellissimo design e qualità costruttiva."
       }
     ]
   }

@@ -1,6 +1,6 @@
 <script>
-import { useCartStore } from '@/stores/cart';
 import { mapStores, mapState, mapActions } from 'pinia'
+import { useCartStore } from '@/stores/cart';
 
 import json from '@/assets/products.json'
 
@@ -20,6 +20,7 @@ export default {
         buttonClick() {
             this.add(this.product, this.quantity);
             this.cartView = this.cartStore.items
+            
         },
         emptyCart() {
             this.empty()
@@ -30,7 +31,7 @@ export default {
         // Chiamata axios.get(:id) a DB o lettura JSON
 
         json.forEach(element => {
-            if (element.ID_Product == this.$route.params.id) {
+            if (element.product_id == this.$route.params.id) {
                 this.product = element
                 return
             }
@@ -49,13 +50,13 @@ export default {
         <hr>
 
         <h1>Product</h1>
-        <h2>{{ product.Title }}</h2>
-        <p>{{ product.Description }}</p>
-        <p>Prezzo: {{ product.Price }}</p>
-        <p>Quantità: {{ product.Quantity }}</p>
-        <p>Marca: {{ product.Brand }}</p>
+        <h2>{{ product.title }}</h2>
+        <p>{{ product.description }}</p>
+        <p>Prezzo: {{ product.price }}</p>
+        <p>Quantità: {{ product.quantity }}</p>
+        <p>Marca: {{ product.brand }}</p>
         <!-- Creare view per immagini e review -->
-        <img width="100px" v-for="imageURL in product.ImageURLs" :src="imageURL" alt="" style="display: inline-block;">
+        <img width="100px" v-for="imageURL in product.imageURLs" :src="imageURL" alt="" style="display: inline-block;">
         <p>reviews</p>
     </div>
 
@@ -63,7 +64,7 @@ export default {
 
     Carrello: <button @click="emptyCart">| Svuota |</button>
     <p v-for="cart in cartView">
-       Prodotto: {{ cart.product.Title }}
+       Prodotto: {{ cart.product.title }}
        Quantità: {{ cart.quantity }}
     </p>
 

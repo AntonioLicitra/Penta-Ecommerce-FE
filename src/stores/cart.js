@@ -13,7 +13,7 @@ export const useCartStore = defineStore('cart', {
                 let existingItem = null
 
                 this.items.forEach(item => {
-                    if (item.product.ID_Product === product.ID_Product) {
+                    if (item.product.product_id === product.product_id) {
                         exists = true;
                         existingItem = item;
                         return
