@@ -11,6 +11,7 @@ import Fotografia from '@/views/Fotografia.vue'
 import Elettrodomestici from '@/views/Elettrodomestici.vue'
 import Gaming from '@/views/Gaming.vue'
 import Casa from '@/views/Casa.vue'
+import Checkout from '@/views/checkout.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -75,7 +76,13 @@ const router = createRouter({
       path: '/casa',
       name: 'Casa',
       component: Casa
+    },
+    {
+      path: '/checkout',
+      name: 'Checkout',
+      component: Checkout
     }
+
 
   ]
 })
