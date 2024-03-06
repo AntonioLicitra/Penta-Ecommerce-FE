@@ -6,6 +6,8 @@ import Saldi from '@/views/Saldi.vue'
 import Shop from '@/views/Shop.vue'
 import About from '@/views/About.vue'
 import PaginaProd from '@/views/PaginaProd.vue'
+import CheckoutView from '@/views/CheckoutView.vue'
+import ConfirmView from '@/views/ConfirmView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,13 +16,22 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
-    }, 
+    },
     {
       path: '/detail/:id',
       name: 'detail',
       component: DetailView
-    }
-    ,
+    },
+    {
+      path: '/checkout',
+      name: 'checkout',
+      component: CheckoutView
+    },
+    {
+      path: '/confirm',
+      name: 'confirm',
+      component: ConfirmView
+    },
     {
       path: '/:catchAll(.*)',
       name: 'Page404',

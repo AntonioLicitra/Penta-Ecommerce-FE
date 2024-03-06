@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 
 import json from '@/assets/products.json'
 
-export const useCartStore = defineStore('product', {
+export const useProductStore = defineStore('product', {
     state: () => {
         return { 
             products: json.clone(), // 41

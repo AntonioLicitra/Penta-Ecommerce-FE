@@ -45,7 +45,7 @@ export default {
 <template>
     <div v-if="product">
         <button @click="buttonClick">| Add |</button>
-        <input type="number" v-model="quantity" min="1" :max="product.Quantity">
+        <input type="number" v-model="quantity" min="1" :max="product.quantity">
 
         <hr>
 
