@@ -70,7 +70,7 @@ export default
 
                     <RouterLink to="./shop" class="text-medio hover:underline ">Shop </RouterLink>
                     <RouterLink to="./saldi" class="text-medio hover:underline ">Saldi </RouterLink>
-                    <div class="text-medio hover:underline">Chi siamo </div>
+                    <RouterLink to="./about" class="text-medio hover:underline">Chi siamo </RouterLink>
 
                 </div>
 
