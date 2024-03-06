@@ -17,7 +17,7 @@ import { RouterLink } from "vue-router";
             <RouterLink to="/" class="text-grande">A^5</RouterLink>
             <RouterLink to="./shop" class="text-medio ml-[80px] hover:underline">Shop </RouterLink>
             <RouterLink to="./saldi" class="text-medio ml-[20px] hover:underline">Saldi </RouterLink>
-            <div class="text-medio ml-[20px] hover:underline">Chi siamo </div>
+            <RouterLink to="./about" class="text-medio ml-[20px] hover:underline">Chi siamo </RouterLink>
         </div>
 
         <!-- Nav dx -->
