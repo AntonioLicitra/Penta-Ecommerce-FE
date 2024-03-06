@@ -9,10 +9,9 @@ export default {
     Header,
     Header2,
     Footer
-}
+  }
 }
 </script>
-
 
 <template>
   <Header />
@@ -20,4 +19,3 @@ export default {
 	<RouterView />
   <Footer />
 </template>
-
