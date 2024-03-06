@@ -12,6 +12,8 @@ import Elettrodomestici from '@/views/Elettrodomestici.vue'
 import Gaming from '@/views/Gaming.vue'
 import Casa from '@/views/Casa.vue'
 import Checkout from '@/views/checkout.vue'
+import CheckoutView from '@/views/CheckoutView.vue'
+import ConfirmView from '@/views/ConfirmView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,13 +22,22 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
-    }, 
+    },
     {
       path: '/detail/:id',
       name: 'detail',
       component: DetailView
-    }
-    ,
+    },
+    {
+      path: '/checkout',
+      name: 'checkout',
+      component: CheckoutView
+    },
+    {
+      path: '/confirm',
+      name: 'confirm',
+      component: ConfirmView
+    },
     {
       path: '/:catchAll(.*)',
       name: 'Page404',
