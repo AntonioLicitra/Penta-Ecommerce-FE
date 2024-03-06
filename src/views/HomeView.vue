@@ -1,108 +1,87 @@
 <template>
 
-  <!-- INIZIO HERO -->
+
+
+  <!-- tutti i prodotti -->
   <section class="h-[80vh] bg-slate-300 flex flex-col justify-center items-center">
-
-    <h1 class="text-grande text-black">
-
-      TITOLO GRANDE
-
+    <h1 class="text-medioMobile lg:text-grande font-semibold">
+      TUTTI I PRODOTTI
     </h1>
 
-    <button class="text-white rounded-sm bg-blue-600 mt-[100px] px-[20px] py-[10px] border-[2px] text-piccolo
+    <RouterLink to="/Shop" class="text-white rounded-[10px] bg-blue-600 mt-[100px] px-[20px] py-[10px] border-[2px] text-piccolo
  hover:bg-white hover:ease-in-out hover:text-black ">
-
       SHOP NOW
-
-    </button>
-
+    </RouterLink>
   </section>
 
-  <!-- FINE HERO -->
 
 
-  <!-- INIZIO SEZIONE -->
-
-
-  <!-- PRIMO QUADRATO -->
-
-
-
+  <!-- container prodotti specifici -->
   <section class="px-[20px] mt-[50px]">
 
-    <div class="h-[400px] lg:h-[500px] bg-slate-400 flex flex-col justify-center items-center">
-
-      <h2 class="text-medioMobile"> TITOLO </h2>
-
-      <button class="text-white rounded-sm bg-blue-600 mt-[200px] px-[20px] py-[10px] border-[2px] text-piccoloMobile
- hover:bg-white hover:ease-in-out hover:text-black ">
-
-        SHOP NOW
-
-      </button>
-
-    </div>
+    <!-- box elettronica -->
+    <RouterLink to="/elettronica" class=" h-[400px] lg:h-[500px] bg-slate-400 flex flex-col justify-center items-center">
+      <h2 class="text-medioMobile lg:text-grande font-semibold hover:text-[25px] lg:hover:text-[80px]"> ELETTRONICA </h2>
+    </RouterLink>
 
 
-    <!-- TABELLA -->
 
 
+    <!-- container 2 -->
     <div class=" sm:gap-4 gap-2 w-full grid grid-cols-2 mt-2 sm:mt-4">
 
-      <div class="lg:h-[600px] lg:p-6 p-3 h-[250px] bg-slate-400 flex justify-end items-start flex-col">
+      <!--fotografia  -->
+      <RouterLink to="/fotografia" class="lg:h-[600px] lg:p-6 p-3 h-[250px] bg-slate-400 flex justify-end items-start flex-col">
+        <h2 class="text-medioMobile lg:text-grande font-semibold hover:text-[25px]  lg:hover:text-[55px]"> FOTOGRAFIA </h2>
+      </RouterLink>
 
-        <h2 class="text-medioMobile lg:text-grande font-semibold"> TITOLO </h2>
+      <!-- gaming -->
+      <RouterLink to="/gaming" class="lg:h-[600px] lg:p-6 p-3 h-[250px] bg-slate-400 flex justify-end items-start flex-col">
+        <h2 class="text-medioMobile lg:text-grande font-semibold hover:text-[25px] lg:hover:text-[55px]"> GAMING</h2>
+      </RouterLink>
 
-      </div>
+      <!-- elettrodomestici -->
+      <RouterLink to="/elettrodomestici" class="lg:h-[600px] lg:p-6 p-3 h-[250px] bg-slate-400 flex justify-end items-start flex-col">
+        <h2 class="text-medioMobile lg:text-grande font-semibold hover:text-[25px] lg:hover:text-[55px]"> ELETTRODOMESTICI </h2>
+      </RouterLink>
 
-      <div class="lg:h-[600px] lg:p-6 p-3 h-[250px] bg-slate-400 flex justify-end items-start flex-col">
-
-        <h2 class="text-medioMobile lg:text-grande font-semibold"> TITOLO </h2>
-
-      </div>
-
-      <div class="lg:h-[600px] lg:p-6 p-3 h-[250px] bg-slate-400 flex justify-end items-start flex-col">
-
-        <h2 class="text-medioMobile lg:text-grande font-semibold"> TITOLO </h2>
-
-      </div>
-
-      <div class="lg:h-[600px] lg:p-6 p-3 h-[250px] bg-slate-400 flex justify-end items-start flex-col">
-
-        <h2 class="text-medioMobile lg:text-grande font-semibold"> TITOLO </h2>
-
-      </div>
+      <!-- casa -->
+      <RouterLink to="/casa" class="lg:h-[600px] lg:p-6 p-3 h-[250px] bg-slate-400 flex justify-end items-start flex-col">
+        <h2 class="text-medioMobile lg:text-grande font-semibold hover:text-[25px] lg:hover:text-[55px]"> CUCINA </h2>
+      </RouterLink>
     </div>
   </section>
 
   <!-- TEST PRODOTTI -->
-  <div class="h-[400px] lg:h-[500px] bg-slate-400 flex flex-col justify-center items-center">
+  <!-- <div class="h-[400px] lg:h-[500px] bg-slate-400 flex flex-col justify-center items-center">
 
-    <h2 class="text-medioMobile"> TUTTI I PRODOTTI </h2>
+    <h2 class="text-medioMobile"> TUTTI I PRODOTTI </h2> -->
 
-    <!-- SINGOLO PRODOTTO -->
-    Prodotti per cucina
+  <!-- SINGOLO PRODOTTO -->
+  <!-- Prodotti per cucina
     <div v-for="product in productsByCategory('cucina')" class="grid grid-cols-4">
       Titolo: {{ product.title }}
       Immagini:
       <img class="w-[100px]" v-for="imageURL in product.imageURLs" :src="imageURL" alt="">
-    </div>
+    </div> -->
 
 
-    Prodotti elettronica
+  <!-- Prodotti elettronica
     <div v-for="product in productsByCategory('elettronica')" class="grid grid-cols-4">
       Titolo: {{ product.title }}
       Immagini:
       <img class="w-[100px]" v-for="imageURL in product.imageURLs" :src="imageURL" alt="">
     </div>
 
-  </div>
+  </div> -->
 
   <!-- FINE SEZIONE -->
 
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
+
 import jsonProducts from '@/assets/products.json'
 
 export default {
