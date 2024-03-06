@@ -30,4 +30,10 @@ export default {
 </script>
 
 <style>
+@media screen and (max-width: 600px){
+.carousel__icon{ 
+
+    display:none
+
+}}
 </style>
