@@ -57,7 +57,7 @@ export default {
             <p class="text-medio mt-5">{{ product.description }}</p>
             <p class="text-piccolo mt-5">Disponibilità: {{ product.quantity }}</p>
             <input class="mt-[50px] p-[5px] border-[1px] rounded-md border-black" type="number" v-model="quantity" min="1" :max="product.Quantity">
-            <button class="mt-[5px] bg-[#294f94ff] hover:bg-white hover:text-[#294f94ff] text-white text-medio font-medium lg:w-[400px] w-[200px] py-2 border border-[#294f94ff] border-[3px] rounded-md " @click="buttonClick">Aggiungi al carrello</button>
+            <button class="mt-[5px] bg-[#294f94ff] hover:bg-white hover:text-[#294f94ff] text-white text-medio font-medium lg:w-[400px] w-full py-2 border border-[#294f94ff] border-[3px] rounded-md " @click="buttonClick">Aggiungi al carrello</button>
             <button class="text-[14px]" @click="emptyCart">Svuota carrello</button>
             <p v-for="cart in cartView">
        Prodotto: {{ cart.product.title }}
