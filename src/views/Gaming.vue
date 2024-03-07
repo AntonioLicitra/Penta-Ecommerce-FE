@@ -1,7 +1,11 @@
 <script>
+import Slider from '@/components/Slider.vue'
 import jsonProducts from '@/assets/products.json'
 
 export default {
+    components: {
+Slider
+    },
     data() {
         return {
             products: []
@@ -35,20 +39,21 @@ export default {
 
 <template>
 
-<h2 class="text-medio lg:text-grande text-center font-bold lg:py-[40px] py-[15px]  "> GAMING </h2>
-<div class="grid grid-cols-4 h-[100%] ">
+<h2 class="text-medio lg:text-grande text-center font-bold lg:py-[40px] py-[15px]"> GAMING </h2>
+<div class="grid grid-cols-2 lg:grid-cols-4 h-[100%] ">
 
 <!-- ciclo del json + router al singolo id -->
-<RouterLink :to="{path:'/detail/'+ product.product_id}" v-for="product in productsByCategory('gaming')" class="flex flex-col justify-end items-center p-[20px] border-2">
+<div v-for="product in productsByCategory('gaming')" class="flex flex-col justify-center items-center p-[20px] border-[1px] border-gray-100">
            
-           <img class="w-[200px] my-auto p-[20px] bg-white hover:w-[300px]"  :src="product.imageURLs[0]" alt="">
-       
-            <h2>{{ product.title }}</h2>
-            <h2>{{ product.price }}</h2>
+           <Slider class="w-[150px] lg:w-[300px] my-auto"  :item="product" alt=""></Slider>
+           <span class="flex flex-col justify-start">
+                <h2 class="text-[14px] lg:text-[24px] font-medium ">{{ product.title }}</h2>
+                <h2 class="font-medium text-[18px]">{{ product.price }} €</h2>
+                </span>
             
 
           
-</RouterLink>
+            </div>
 
         </div>
 
