@@ -99,6 +99,8 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 - [x] Cart page
 - [x] Cart functionality
 - [x] Search product by text
+- [x] filter price (crescente/decrescente)
+- [x] filter for category
 - [ ] User (buyer, store, admin) 
 - [ ] Login page & functionality
 - [ ] Review functionality
