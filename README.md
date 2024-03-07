@@ -12,6 +12,7 @@ al seguito ci siamo subito cimentati nella progettazione logica e alla divisione
 
 ore 17:45 con votazione di tutto l`equipaggio si decide di usare Tailwind a discapito di CSS con N3 votazioni a favore, N2 votazioni contrarie, N0 voti nulli.
 
+(TEMPO TOTALE DEL GIORNO 3.5h)
 ____________________________________________________________
 # Giorno N2
 Diario del capitano Giorno N2 (05/03/2024)
@@ -25,8 +26,9 @@ si trovava la nave del Comandante Supremo Egreggio Sg. Simone che è subito cime
 riuscito nell impresa di salvatagio il Sottufficiale Antonio M. tratto in salvo dava segni di essere abbastanza scosso dall accaduto.
 
 Nel pomeriggio tutto riprende tranquillamente il gruppo N1 procede a mettere in pratica quelo studiato la mattina con un mezzo sucesso,
-il gruppo N2 continua la progettazione grafica completando l`header e nav, homepage e aggiungendo la pagina about
+il gruppo N2 continua la progettazione grafica completando l`header e nav, homepage e aggiungendo la pagina about.
 
+(TEMPO TOTALE DEL GIORNO 7h)
  ____________________________________________________________
 # Giorno N3
 Diario del capitano Giorno N3 (06/03/2024)
@@ -36,6 +38,7 @@ abbiamo ancora molto da sistemare, ma l'umore generale è tornato a salire.
 nel pomeriggio abbiamo ripresi abbastanza carichi ma per un imprevisto il capitano ha dovuto lasciare momentaneamente la nave, :(
 la Ciurma ha continuato a lavorare in modo più che egregio 
 
+(TEMPO TOTALE DEL GIORNO 7h)
 ____________________________________________________________
 # Giorno N4
 Diario del capitano Giorno N4 (07/03/2024)
@@ -57,6 +60,7 @@ Un ringraziamento speciale va al ufficiale di Vascello Andrea M. per le sue capa
 Un altro ringraziamento speciale va al Sottufficiale Antonio M. e al Sottufficiale Antonino P.E. per la continua creazione di problemi che altrimenti avrebbero reso i progressi del
 progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di problem solving.
 
+(TEMPO TOTALE DEL GIORNO 7h)
  ____________________________________________________________
  
 # Giorno N5 (Bonus)
@@ -65,6 +69,7 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
  Diario del capitano Giorno N5 (07/03/2024)
  Giorno abbastanza strano, ogggi abbiamo le presentazioni del progetto, il diario concluso con tutti i ringraziamenti le lacrime ecc. sono già stati scritti/versati ieri quindi in realtà non so che scrivere oggi 
 
+(PRESENTAZIONE PROGETTO)
  ____________________________________________________________
 
 # DETTAGLI DEL PROGETTO:
