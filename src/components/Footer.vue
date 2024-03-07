@@ -4,9 +4,9 @@
       <div class="mx-auto w-full max-w-screen-xl">
         <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
 
-          <div>
-              <h1>LOGO</h1>
-          </div>
+          <RouterLink to="/">
+            <img src="../assets/img/logo.svg" alt="logo" class="w-[60px] mt-[60px] ml-[40px]">
+          </RouterLink>
 
           <div>
               <h2 class="mb-6 text-sm font-semibold  uppercase ">Company</h2>
