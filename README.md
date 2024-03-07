@@ -69,7 +69,7 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
  Diario del capitano Giorno N5 (07/03/2024)
  Giorno abbastanza strano, ogggi abbiamo le presentazioni del progetto, il diario concluso con tutti i ringraziamenti le lacrime ecc. sono già stati scritti/versati ieri quindi in realtà non so che scrivere oggi 
 
-(PRESENTAZIONE PROGETTO)
+(PRESENTAZIONE PROGETTO) :shipit::shipit::shipit:
  ____________________________________________________________
 
 # DETTAGLI DEL PROGETTO:
