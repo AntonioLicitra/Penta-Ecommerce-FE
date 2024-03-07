@@ -69,9 +69,9 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 DI SEGUITO I DETTAGLI DEL PROGETTO:
 
 ROAD MAP:
--FLLF
--FEKF
-
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to 
 
 
 DIAGRAMMA E-R
