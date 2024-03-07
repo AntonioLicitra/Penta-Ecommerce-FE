@@ -15,7 +15,7 @@ al seguito ci siamo subito cimentati nella progettazione logica e alla divisione
 
 ore 17:45 con votazione di tutto l`equipaggio si decide di usare Tailwind a discapito di CSS con N3 votazioni a favore, N2 votazioni contrarie, N0 voti nulli.
 
-(TEMPO TOTALE DEL GIORNO 3.5h)
+(TEMPO TOTALE DEL GIORNO 3.5h) (Preparazione)
 ____________________________________________________________
 ## Giorno N2
 Diario del capitano Giorno N2 (05/03/2024)
@@ -82,9 +82,16 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 
 
 ### ROAD MAP:
-- [x] Porno Micro onde
-- [ ] Mlem
-- [ ] Add delight to 
+- [x] Header & Nav
+- [x] Footer
+- [x] Home page
+- [x] Detail Product Page
+- [x] Cart page
+- [x] Cart functionality
+- [ ] User (buyer, store, admin) 
+- [ ] Login page & functionality
+- [ ] Review functionality
+- [ ] AddProduct / ModifyProduct (Admin page)
 
 
 ### DIAGRAMMA E-R
