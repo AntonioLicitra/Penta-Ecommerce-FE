@@ -55,7 +55,9 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 
 DI SEGUITO I DETTAGLI DEL PROGETTO:
 
+DIAGRAMMA E-R
 ![Diagramma E-R](https://github.com/AntonioLicitra/Penta-Ecommerce-FE/assets/157693348/52097d7f-474f-4aea-9bb6-1315973c8b12)
+Il punto di partenza della logica del progetto 
 
 
 
