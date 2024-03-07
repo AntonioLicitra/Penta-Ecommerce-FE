@@ -30,34 +30,29 @@ export const useCartStore = defineStore('cart', {
         empty() {
             this.items = []
         },
-        remove(product) {
-
+        remove(cartItem) {
+            this.items.forEach((item, index) => {
+                if (item.product.product_id == cartItem.product.product_id) {
+                    this.items.splice(index, 1);
+                }
+            })
         },
         removeOne(cartItem) {
-            console.log("cartStore.removeOne")
-
-            let itemToUpdate = null
-            let indexToInsert = 0
+            let toBeRemoved = false
 
             this.items.forEach((item, index) => {
-                console.log("cartStore.item", item)
-                console.log("cartStore.product", cartItem)
-
                 if (item.product.product_id == cartItem.product.product_id) {
-                    console.log("ENTRO NELL'IF")
-                    itemToUpdate = { product: item.product, quantity: item.quantity-- }
-                    indexToInsert = index
-                    return
+                    this.items.splice(index, 1, { product: item.product, quantity: --item.quantity })
+
+                    if (item.quantity == 0)
+                        toBeRemoved = true
+
+                    return;
                 }
             });
 
-            console.log("itemToUpdate", itemToUpdate)
-            console.log("indexToInsert", indexToInsert)
-
-            if (itemToUpdate != null)
-                //this.items = this.items.splice(indexToInsert, 1, this.items.splice(indexToInsert, 0, itemToUpdate))
-
-            console.log("deleted item", this.items.splice(indexToInsert, 1, itemToUpdate))
+            if (toBeRemoved)
+                this.remove(cartItem)
         }
     },
     getters: {

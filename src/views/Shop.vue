@@ -38,7 +38,6 @@ export default {
     },
     mounted() {
         this.products = jsonProducts
-        console.log(this.products)
     },
     methods: {
         productsByCategory(category) {
@@ -56,5 +55,4 @@ export default {
 </script>
 
 <style>
-.immaginee {}
 </style>
