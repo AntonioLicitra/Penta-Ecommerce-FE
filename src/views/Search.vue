@@ -1,6 +1,6 @@
 <template>
     <h2 class="text-medio lg:text-grande text-center font-bold lg:py-[40px] py-[15px]">RISULTATI RICERCA</h2>
-    <div class="grid h-[100%] grid-cols-1" :class="'lg:grid-cols-' + foundProductsLength">
+    <div class="grid h-[100%] grid-cols-1" :class="'lg:grid-cols-4'">
 
         <!-- RICERCA -->
         <div v-for="product in productsBySearchQuery(searchQuery)"
