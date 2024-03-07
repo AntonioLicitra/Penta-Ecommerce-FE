@@ -1,3 +1,4 @@
+```
 Diario del capitano Giorno N1 (04/03/2024)
 era un Lunedì uggioso nel quale il Comandante Supremo Egreggio Sg. Simone ci ha donato delle fantastiche traccie,
 tra le molteplici scelte dopo svariate votazioni il mio equipaggio ed io abbiamo deciso di fare la traccia dell ecommerce,
@@ -10,9 +11,9 @@ al seguito ci siamo subito cimentati nella progettazione logica e alla divisione
     progettazione/design della pagina web.
 
 ore 17:45 con votazione di tutto l`equipaggio si decide di usare Tailwind a discapito di CSS con N3 votazioni a favore, N2 votazioni contrarie, N0 voti nulli.
-
+```
 ____________________________________________________________
-
+```
 Diario del capitano Giorno N2 (05/03/2024)
 un Martedi' particolare, appena svegli ci siamo ritrovati al centro di una tempesta ma grazie all equipaggio siamo riusciti ad aggirala, almeno per il momento...
 Dopo il conueto appello mattutino ci siamo riuniti per assegnare le task giornaliere, nello specifico:
@@ -25,18 +26,18 @@ riuscito nell impresa di salvatagio il Sottufficiale Antonio M. tratto in salvo 
 
 Nel pomeriggio tutto riprende tranquillamente il gruppo N1 procede a mettere in pratica quelo studiato la mattina con un mezzo sucesso,
 il gruppo N2 continua la progettazione grafica completando l`header e nav, homepage e aggiungendo la pagina about
-
+```
  ____________________________________________________________
- 
+ ```
 Diario del capitano Giorno N3 (06/03/2024)
 E' già mercoledi, la ciurma sta procedendo bene nella mattina abbiamo completato la maggior parte della parte grafica e il carrello ha iniziato a funionare
 abbiamo ancora molto da sistemare, ma l'umore generale è tornato a salire.
 
 nel pomeriggio abbiamo ripresi abbastanza carichi ma per un imprevisto il capitano ha dovuto lasciare momentaneamente la nave, :(
 la Ciurma ha continuato a lavorare in modo più che egregio 
-
+```
 ____________________________________________________________
-     
+   ```  
 Diario del capitano Giorno N4 (07/03/2024)
 un giovedi non particolarmente soleggiato, Ci rimane tutta la mattina per le ultime rifiniture ed ultimare il progetto nel pomeriggio dovemo fare la presentazione del progetto 
 al Comandante Supremo Egreggio Sg. Simone sperando di aver fatto un buon lavoro e di aver soddisfatto le sue aspettative... 
@@ -55,14 +56,14 @@ Un ringraziamento speciale va al ufficiale di Vascello Andrea M. per le sue capa
 
 Un altro ringraziamento speciale va al Sottufficiale Antonio M. e al Sottufficiale Antonino P.E. per la continua creazione di problemi che altrimenti avrebbero reso i progressi del
 progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di problem solving.
-
+```
  ____________________________________________________________
-
+```
  Contro ogni previsione ilComandante Supremo Egreggio Sg. Simone ha poaticipato la presentazione dei progetti di mezza giornata, Quindi:
  
  Diario del capitano Giorno N5 (07/03/2024)
  Giorno abbastanza strano, ogggi abbiamo le presentazioni del progetto, il diario concluso con tutti i ringraziamenti le lacrime ecc. sono già stati scritti/versati ieri quindi in realtà non so che scrivere oggi 
-
+```
  ____________________________________________________________
 
 DI SEGUITO I DETTAGLI DEL PROGETTO:
