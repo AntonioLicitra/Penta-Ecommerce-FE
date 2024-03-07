@@ -50,7 +50,7 @@ e per ultima ma non per importanza a Lavinia la quale ci ha sostenuto ed aiutati
 
 Un ringraziamento speciale va al ufficiale di Vascello Andrea M. per le sue capacita gestionali e di comando oltre alla sua destrezza nel codice.
 
-Un altro ringrazziamento va al Sottufficiale Antonio M. e al Sottufficiale Antonino P.E. per la continua creazione di problemi che altrimenti avrebbero reso i progressi del
+Un altro ringraziamento speciale va al Sottufficiale Antonio M. e al Sottufficiale Antonino P.E. per la continua creazione di problemi che altrimenti avrebbero reso i progressi del
 progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di problem solving.
 
 DI SEGUITO I DETTAGLI DEL PROGETTO:
