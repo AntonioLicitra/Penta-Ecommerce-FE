@@ -8,7 +8,8 @@
 - [Giorno N4](#giorno-n4)
 - [Giorno N5](#giorno-n5)
 - [Dettagli del Progetto](#dettagli-del-progetto)
-- [Road Map]()
+- [Road Map](road-map)
+- [Diagramma E-R]()
 
 
 ## Giorno N1
