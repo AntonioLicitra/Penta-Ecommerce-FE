@@ -41,7 +41,6 @@ Slider
 
 <h2 class="text-medio lg:text-grande text-center font-bold lg:py-[40px] py-[15px]"> GAMING </h2>
 <div class="grid grid-cols-2 lg:grid-cols-4 h-[100%] ">
-
 <!-- ciclo del json + router al singolo id -->
 <div v-for="product in productsByCategory('gaming')" class="flex flex-col justify-center items-center p-[20px] border-[1px] border-gray-100">
            
