@@ -1,6 +1,14 @@
 # Penta-Ecommerce-FE
 > Progetto finale dell corso Frontend Developer by Opinno gruppo N2 :)
 
+# Indice
+- [Giorno N1](#introduzione)
+- [Giorno N2](#installazione)
+- [Giorno N3](#utilizzo)
+- [Giorno N4](#contribuire)
+- [Giorno N5](#licenza)
+
+
 ## Giorno N1
 Diario del capitano Giorno N1 (04/03/2024) :shipit:
 era un Lunedì uggioso nel quale il Comandante Supremo Egreggio Sg. Simone ci ha donato delle fantastiche traccie,
