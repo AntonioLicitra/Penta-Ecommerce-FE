@@ -26,6 +26,7 @@ Nel pomeriggio tutto riprende tranquillamente il gruppo N1 procede a mettere in 
 il gruppo N2 continua la progettazione grafica completando l`header e nav, homepage e aggiungendo la pagina about
 
 
+![Diagramma E-R](https://github.com/AntonioLicitra/Penta-Ecommerce-FE/assets/157693348/52097d7f-474f-4aea-9bb6-1315973c8b12)
 
 
 
