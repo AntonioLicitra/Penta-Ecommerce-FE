@@ -29,6 +29,30 @@ export const useCartStore = defineStore('cart', {
         },
         empty() {
             this.items = []
+        },
+        remove(cartItem) {
+            this.items.forEach((item, index) => {
+                if (item.product.product_id == cartItem.product.product_id) {
+                    this.items.splice(index, 1);
+                }
+            })
+        },
+        removeOne(cartItem) {
+            let toBeRemoved = false
+
+            this.items.forEach((item, index) => {
+                if (item.product.product_id == cartItem.product.product_id) {
+                    this.items.splice(index, 1, { product: item.product, quantity: --item.quantity })
+
+                    if (item.quantity == 0)
+                        toBeRemoved = true
+
+                    return;
+                }
+            });
+
+            if (toBeRemoved)
+                this.remove(cartItem)
         }
     },
     getters: {

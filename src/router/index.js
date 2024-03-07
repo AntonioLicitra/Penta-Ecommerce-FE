@@ -11,6 +11,8 @@ import Fotografia from '@/views/Fotografia.vue'
 import Elettrodomestici from '@/views/Elettrodomestici.vue'
 import Gaming from '@/views/Gaming.vue'
 import Casa from '@/views/Casa.vue'
+import Checkout from '@/views/Checkout.vue'
+import ConfirmView from '@/views/ConfirmView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,13 +21,17 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
-    }, 
+    },
     {
       path: '/detail/:id',
       name: 'detail',
       component: DetailView
-    }
-    ,
+    },
+    {
+      path: '/confirm',
+      name: 'confirm',
+      component: ConfirmView
+    },
     {
       path: '/:catchAll(.*)',
       name: 'Page404',
@@ -75,7 +81,13 @@ const router = createRouter({
       path: '/casa',
       name: 'Casa',
       component: Casa
+    },
+    {
+      path: '/checkout',
+      name: 'Checkout',
+      component: Checkout
     }
+
 
   ]
 })
