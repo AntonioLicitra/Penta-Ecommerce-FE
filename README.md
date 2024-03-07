@@ -2,10 +2,10 @@
 > Progetto finale dell corso Frontend Developer by Opinno gruppo N2 :)
 
 # Indice
-- [Giorno N1](#giornoN1)
-- [Giorno-N2](#GiornoN2)
-- [Giorno N3](#GiornoN3)
-- [Giorno N4](#[GiornoN4](https://github.com/AntonioLicitra/Penta-Ecommerce-FE/blob/main/README.md#giorno-n4))
+- [giorno N1](#giornoN1)
+- [giorno-N2](#GiornoN2)
+- [giorno N3](#GiornoN3)
+- [giorno N4](#maCheCazzoNeSo)
 - [Giorno N5](#licenza)
 
 
@@ -41,7 +41,7 @@ il gruppo N2 continua la progettazione grafica completando l`header e nav, homep
 
 (TEMPO TOTALE DEL GIORNO 7h)
  ____________________________________________________________
-# Giorno N3
+## Giorno N3
 Diario del capitano Giorno N3 (06/03/2024)
 E' già mercoledi, la ciurma sta procedendo bene nella mattina abbiamo completato la maggior parte della parte grafica e il carrello ha iniziato a funionare
 abbiamo ancora molto da sistemare, ma l'umore generale è tornato a salire. la mattina abbiamo implementato Pinia per le logiche del carrello
