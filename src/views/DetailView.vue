@@ -2,6 +2,7 @@
 import { mapStores, mapActions } from 'pinia'
 import { useCartStore } from '@/stores/cart';
 import { RouterLink } from 'vue-router';
+import Card from '@/components/Card.vue';
 
 import SliderDetail from '@/components/SliderDetail.vue'
 
@@ -9,7 +10,8 @@ import json from '@/assets/products.json'
 
 export default {
     components: {
-        SliderDetail
+        SliderDetail,
+        Card
     },
     data() {
         return {
@@ -50,7 +52,7 @@ export default {
     <section v-if="product" class="flex flex-col lg:flex-row mt-10">
         <div class="w-[100%] lg:w-[50%] gap-10 flex flex-col justify-center items-center">
             <!-- SLIDER -->
-            <SliderDetail class="w-[400px]" :item="product"></SliderDetail>
+            <SliderDetail class="w-[70%]" :item="product"></SliderDetail>
         </div>
         <div class="w-[100%] lg:w-[50%] p-4 flex flex-col items-start lg:sticky">
             <p class="text-[14px]">{{ product.brand }}</p>
@@ -64,8 +66,16 @@ export default {
                 class="mt-[5px] bg-blue-600 hover:bg-white hover:text-black text-white text-medio font-medium lg:w-[400px] w-full py-2 border-[2px] hover:border-black border-blue-600 rounded-[10px] ease-in-out duration-300"
                 @click="addToCart">Aggiungi al carrello</button>
         </div>
+
+        
     </section>
 
+    <div class="mt-[200px]">
+
+        <card> </card>
+
+    </div>
+    
 
 
 </template>

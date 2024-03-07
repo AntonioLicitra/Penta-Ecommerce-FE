@@ -1,44 +1,53 @@
 
+
+
 <template>
-   <!-- SEZIONE CARD -->
-   <section class="flex flex-col  sm:flex-row sm:gap-[50px] sm:px-[5vw] sm:my-[30px]  ">
-      <div class="h-[400px] w-full sm:w-[50%] pt-[20px] bg-gray-300 lg:h-[700px] "></div>
-      <div class="flex flex-col sm:w-[50%] pt-[30px]">
-         <div class=" lg:pr-[250px] sm:pb-[300px] flex flex-col items-start justify-start px-[20px]">
-            <!-- NOME CARD CON PREZZO -->
-           <p class="text-grandeMobile sm:text-grande ">lorem ipsum</p>
-           <p>500$</p>
-           <p>x in stock</p>
-           <!-- DESCRIZIONE CARD -->
-           <p class="pt-[30px] hidden md:block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni officiis recusandae deleniti voluptates nihil, vel libero voluptatem porro eligendi enim voluptas distinctio, maiores omnis atque aperiam, eius dolorum quod eos!
-           In earum nisi iusto qui quam dicta, molestiae corrupti. Possimus tempore amet dolores harum culpa, qui veniam non. Itaque officia veritatis perferendis aliquam quasi, quam dolor architecto fuga beatae quaerat.</p>
-           <button class="w-full border-[2px] border-black rounded-md py-[10px] mt-[20px] text-piccolo  ">Add to cart</button>
-           <p class="pt-[30px] sm:hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni officiis recusandae deleniti voluptates nihil, vel libero voluptatem porro eligendi enim voluptas distinctio, maiores omnis atque aperiam, eius dolorum quod eos!
-           In earum nisi iusto qui quam dicta, molestiae corrupti. Possimus tempore amet dolores harum culpa, qui veniam non. Itaque officia veritatis perferendis aliquam quasi, quam dolor architecto fuga beatae quaerat.</p>
-          
-         </div>
-
-        
-           
-      </div>
-   </section>
-
-
-   <!-- PRODOTTI CONSIGLIATI -->
-   <section class="px-[20px] sm:px-[5vw] mt-[100px] mb-20">
-      <h2 class="text-grandeMobile font-semibold">Prodotti consigliati</h2>
-
-      <div class="sm:grid sm:grid-cols-4 sm:gap-[10px] grid grid-cols-2 gap-[5px]">
-
-         <div class="bg-slate-300 h-[200px] lg:h-[400px]  "></div>
-         <div class="bg-slate-300 h-[200px] lg:h-[400px]  "></div>
-         <div class="bg-slate-300 h-[200px] lg:h-[400px]  "></div>
-         <div class="bg-slate-300 h-[200px] lg:h-[400px]  "></div>
-      
-      </div>
-
-   </section>
-
+   <h2 class="text-medio lg:text-grande text-center font-bold lg:py-[40px] py-[15px]"> PRODOTTI CONSIGLIATI </h2>
+   <div class="grid grid-cols-2 lg:grid-cols-4 h-[100%] ">
+       <!-- TUTTI PRODOTTI -->
+       <div v-for="product in products" :key="index" class="flex flex-col justify-center items-center p-[20px] border-[1px] border-gray-100">
+           <SliderConsigliati class="w-[150px] lg:w-[300px] my-auto" :item="product"></SliderConsigliati>
+           <span class="flex flex-col justify-start">
+               <h2 class="text-[14px] lg:text-[24px] font-medium">{{ product.title }}</h2>
+               <h2 class="font-medium text-[18px]">{{ product.price }} €</h2>
+           </span>
+       </div>
+   </div>
 </template>
+
+<script>
+import SliderConsigliati from '@/components/SliderConsigliati.vue'
+import jsonProducts from '@/assets/products.json'
+
+export default {
+   components: {
+       SliderConsigliati
+   },
+   data() {
+       return {
+           products: []
+       }
+   },
+   mounted() {
+      
+       this.products = this.casuale(jsonProducts).slice(0, 4);
+   },
+   methods: {
+       casuale(array) {
+           
+           function Randomizza() {
+               return Math.random() - 0.5;
+           }
+           
+          
+           return array.sort(Randomizza);
+       }
+   }
+}
+</script>
+
+
+<style>
+</style>
 
 

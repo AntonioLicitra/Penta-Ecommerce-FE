@@ -111,7 +111,7 @@ export default
         <nav class="flex items-center w-[100vw] h-[100px] px-[25px] xl:px-[40px] justify-between ">
             <div class="flex items-center w-full justify-between">
 
-                <div class="w-[50%] flex items-center">
+                <div class="w-[80%] flex items-center">
 
                     <!-- LOGO -->
 
@@ -138,9 +138,13 @@ export default
 
                     <!-- MENU DESKTOP -->
 
-                    <ul class="max-[840px]:hidden max-xl:ml-[50px] flex gap-10 ml-[80px] ">
+                    <ul class="max-[840px]:hidden max-xl:ml-[50px] flex gap-5 ml-[80px] ">
                         <RouterLink to="/shop" class="text-medio hover:underline">Shop </RouterLink>
-                        <RouterLink to="/saldi" class="text-medio hover:underline">Saldi</RouterLink>
+                        <RouterLink to="/gaming" class="text-medio font-medium hover:underline">Gaming</RouterLink>
+                        <RouterLink to="/fotografia" class="text-medio hover:underline">Fotografia</RouterLink>
+                        <RouterLink to="/elettronica" class="text-medio hover:underline">Elettronica</RouterLink>
+                        <RouterLink to="/elettrodomestici" class="text-medio hover:underline">Elettrodomestici</RouterLink>
+                        <RouterLink to="/casa" class="text-medio hover:underline">Casa</RouterLink>
                         <RouterLink to="/about" class="text-medio hover:underline">Chi siamo </RouterLink>
                     </ul>
                 </div>
