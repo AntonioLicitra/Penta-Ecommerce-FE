@@ -3,7 +3,7 @@
 
 # Indice
 - [Giorno N1](#giorno-n1)
-- [Giorno-N2](#giorno-n2)
+- [Giorno N2](#giorno-n2)
 - [Giorno N3](#giorno-n3)
 - [Giorno N4](#giorno-n4)
 - [Giorno N5](#giorno-n5)
