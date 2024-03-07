@@ -2,7 +2,7 @@
 > Progetto finale dell corso Frontend Developer by Opinno gruppo N2 :)
 
 # Indice
-- [Giorno N1](#giornoN1)
+- [Giorno N1](#giorno-n1)
 - [giorno-N2](#GiornoN2)
 - [giorno N3](#GiornoN3)
 - [giorno N4](#maCheCazzoNeSo)
