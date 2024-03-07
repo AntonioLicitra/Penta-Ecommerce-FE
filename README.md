@@ -3,7 +3,7 @@
 
 # Indice
 - [Giorno N1](#giornoN1)
-- [Giorno N2](#GiornoN2)
+- [Giorno-N2](#GiornoN2)
 - [Giorno N3](#GiornoN3)
 - [Giorno N4](#[GiornoN4](https://github.com/AntonioLicitra/Penta-Ecommerce-FE/blob/main/README.md#giorno-n4))
 - [Giorno N5](#licenza)
@@ -25,7 +25,7 @@ ore 17:45 con votazione di tutto l`equipaggio si decide di usare Tailwind a disc
 
 (TEMPO TOTALE DEL GIORNO 3.5h) (Preparazione)
 ____________________________________________________________
-## Giorno N2
+## Giorno-N2
 Diario del capitano Giorno N2 (05/03/2024)
 un Martedi' particolare, appena svegli ci siamo ritrovati al centro di una tempesta ma grazie all equipaggio siamo riusciti ad aggirala, almeno per il momento...
 Dopo il conueto appello mattutino ci siamo riuniti per assegnare le task giornaliere, nello specifico:
