@@ -3,10 +3,11 @@
 
 # Indice
 - [Giorno N1](#giorno-n1)
-- [giorno-N2](#GiornoN2)
-- [giorno N3](#GiornoN3)
-- [giorno N4](#maCheCazzoNeSo)
-- [Giorno N5](#licenza)
+- [Giorno-N2](#giorno-n2)
+- [Giorno N3](#giorno-n3)
+- [Giorno N4](#giorno-n4)
+- [Giorno N5](#giorno-n5)
+- [DETTAGLI DEL PROGETTO]()
 
 
 ## Giorno N1
