@@ -69,9 +69,9 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 
 # DETTAGLI DEL PROGETTO:
 
-## ROAD MAP:
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
+### ROAD MAP:
+- [x] Porno Micro onde
+- [ ] Mlem
 - [ ] Add delight to 
 
 
