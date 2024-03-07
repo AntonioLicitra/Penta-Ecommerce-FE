@@ -11,7 +11,8 @@ al seguito ci siamo subito cimentati nella progettazione logica e alla divisione
 
 ore 17:45 con votazione di tutto l`equipaggio si decide di usare Tailwind a discapito di CSS con N3 votazioni a favore, N2 votazioni contrarie, N0 voti nulli.
 
-    ____________________________________________________________
+____________________________________________________________
+
 Diario del capitano Giorno N2 (05/03/2024)
 un Martedi' particolare, appena svegli ci siamo ritrovati al centro di una tempesta ma grazie all equipaggio siamo riusciti ad aggirala, almeno per il momento...
 Dopo il conueto appello mattutino ci siamo riuniti per assegnare le task giornaliere, nello specifico:
@@ -25,7 +26,8 @@ riuscito nell impresa di salvatagio il Sottufficiale Antonio M. tratto in salvo 
 Nel pomeriggio tutto riprende tranquillamente il gruppo N1 procede a mettere in pratica quelo studiato la mattina con un mezzo sucesso,
 il gruppo N2 continua la progettazione grafica completando l`header e nav, homepage e aggiungendo la pagina about
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ____________________________________________________________
+ 
 Diario del capitano Giorno N3 (06/03/2024)
 E' già mercoledi, la ciurma sta procedendo bene nella mattina abbiamo completato la maggior parte della parte grafica e il carrello ha iniziato a funionare
 abbiamo ancora molto da sistemare, ma l'umore generale è tornato a salire.
@@ -33,7 +35,7 @@ abbiamo ancora molto da sistemare, ma l'umore generale è tornato a salire.
 nel pomeriggio abbiamo ripresi abbastanza carichi ma per un imprevisto il capitano ha dovuto lasciare momentaneamente la nave, :(
 la Ciurma ha continuato a lavorare in modo più che egregio 
 
-     ____________________________________________________________
+____________________________________________________________
      
 Diario del capitano Giorno N4 (07/03/2024)
 un giovedi non particolarmente soleggiato, Ci rimane tutta la mattina per le ultime rifiniture ed ultimare il progetto nel pomeriggio dovemo fare la presentazione del progetto 
