@@ -55,13 +55,13 @@ export default {
         <div class="w-[100%] lg:w-[50%] p-4 flex flex-col items-start lg:sticky">
             <p class="text-[14px]">{{ product.brand }}</p>
             <h2 class="text-grande font-semibold">{{ product.title }}</h2>
-            <p class="text-medio ">{{ product.price }}</p>
+            <p class="text-medio ">{{ product.price }} €</p>
             <p class="text-medio mt-5">{{ product.description }}</p>
             <p class="text-piccolo mt-5">Disponibilità: {{ product.quantity }}</p>
             <input class="mt-[50px] p-[5px] border-[1px] rounded-md border-black" type="number" v-model="quantity"
                 min="1" :max="product.quantity" @change="validateQuantity">
             <button
-                class="mt-[5px] bg-[#294f94ff] hover:bg-white hover:text-[#294f94ff] text-white text-medio font-medium lg:w-[400px] w-full py-2 border border-[#294f94ff] rounded-md transition duration-300"
+                class="mt-[5px] bg-blue-600 hover:bg-white hover:text-blue-600 text-white text-medio font-medium lg:w-[400px] w-full py-2 border border-blue-600 rounded-[10px] ease-in-out duration-300"
                 @click="addToCart">Aggiungi al carrello</button>
         </div>
     </section>

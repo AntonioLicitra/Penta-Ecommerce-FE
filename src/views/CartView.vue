@@ -2,10 +2,12 @@
     <div class="cartView fixed top-0 right-0 w-[100vw] lg:w-[500px] h-screen bg-white text-black z-[9999]">
         <div class="flex justify-center items-center flex-col p-5">
             <!-- CLOSE CART BUTTON -->
+            <div class=" w-full flex justify-end">
             <button @click="closeCart"
-                class="bg-blue-600 text-white hover:bg-white hover:text-blue-500 border border-blue-500 transition duration-300 w-[30px] h-[30px] flex items-center justify-center rounded-full font-bold">
+                class="text-black text-[30px] hover:bg-white hover:text-blue-500 ease-in-out duration-300 w-[50px] h-[50px] flex items-center justify-center rounded-full font-bold">
                 <i class="fa-solid fa-xmark"></i>
             </button>
+            </div>
 
             <!-- OGNI SIGNOLO ITEM -->
             <CartItem v-for="item in items" :item="item" class="border-b"></CartItem>
@@ -23,7 +25,7 @@
                     <!-- CHECKOUT CTA -->
                     <div class="text-right">
                         <button
-                            class="bg-blue-600 text-white border border-blue-500 rounded-sm hover:bg-white hover:text-blue-500 font-bold px-3 py-2 mt-2 text-piccolo transition duration-300"
+                            class="bg-blue-600 text-white border border-blue-600 hover:border-black rounded-[10px] hover:bg-white hover:text-black font-bold px-3 py-2 mt-2 text-piccolo transition duration-300"
                             @click="this.$emit('checkout')">
                             <RouterLink to="/checkout">Checkout</RouterLink>
                         </button>
@@ -34,7 +36,7 @@
                     class="border border-slate-200 text-center p-4 text-xl mt-4 flex flex-col justify-center items-center">
                     <div>Il tuo carello è vuoto</div>
                     <div
-                        class="bg-blue-500 text-white border border-blue-500 mt-5 p-4 hover:bg-white hover:text-blue-500 transition duration-300">
+                        class="bg-blue-500 text-white border border-blue-600 mt-5 p-4 hover:bg-white hover:border-black rounded-[10px] hover:text-black ease-in-out duration-300">
                         <RouterLink @click="this.$emit('close-cart')" to="/shop">Torna allo shop</RouterLink>
                     </div>
                 </div>
