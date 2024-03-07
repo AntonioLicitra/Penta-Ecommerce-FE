@@ -114,4 +114,7 @@ Il punto di partenza della parte logica del progetto
 mentre per la parte grafica ci siamo basati su una bozza di Figma fatta da AntonioL.
 
 
+## Domande per simone 
+come funziona reload pagine con Routerlink
+
 
