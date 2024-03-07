@@ -4,33 +4,39 @@ import SmallCartIcon from './SmallCartIcon.vue';
 import CartIcon from './CartIcon.vue'
 import CartView from '@/views/CartView.vue'
 
-export default
-    {
-        components: { SmallCartIcon, CartIcon, CartView },
-        data() {
-            return {
-                search: true,
-                men: true,
-                cartShow: false
-            }
+export default {
+    components: { SmallCartIcon, CartIcon, CartView },
+    data() {
+        return {
+            search: true,
+            men: true,
+            cartShow: false,
+            searchTerm: '',
+        }
+    },
+    methods: {
+        fnSearch() {
+            this.search = !this.search
         },
-        methods: {
-            fnSearch() {
-                this.search = !this.search
-            },
-            fnMenu() {
-                this.men = !this.men
-            },
-            showCart() {
-                this.cartShow = !this.cartShow
-            }
+        fnMenu() {
+            this.men = !this.men
+        },
+        showCart() {
+            this.cartShow = !this.cartShow
+        }
+    },
+    computed: {
+        searchEvent() {
+            window.location.href = `/search?term=${this.searchTerm}`
         }
     }
+}
 
 </script>
 
 <template>
-    <!-- Nav Mobile
+    <div>
+        <!-- Nav Mobile
     <header id="query"
         class="text-grandeMobile font-bold query flex justify-between items-center h-[80px] bg-slate-400 p-[15px] lg:hidden">
         <RouterLink to="/">A<sup>5</sup></RouterLink>
@@ -38,7 +44,7 @@ export default
         <div class="flex items-center">
 
             <!- search -->
-    <!-- <div v-if="search"> <input type="text" placeholder="Search..."
+        <!-- <div v-if="search"> <input type="text" placeholder="Search..."
                     class="text-piccoloMobile pl-[15px] w-[200px] h-[45px] px-[10px] rounded-[30px] mb-[8px]"></div>
 
 
@@ -48,11 +54,11 @@ export default
                         d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
                 </svg></div> -->
 
-    <!-- shop -->
+        <!-- shop -->
 
 
-    <!-- menù -->
-    <!-- <div @click="fnMenu" v-if="men" class="ml-[23px] w-[28px]"><svg xmlns="http://www.w3.org/2000/svg"
+        <!-- menù -->
+        <!-- <div @click="fnMenu" v-if="men" class="ml-[23px] w-[28px]"><svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512">
                     <path
                         d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
@@ -61,13 +67,13 @@ export default
             <div @click="fnMenu" v-else> -->
 
 
-    <!-- x tendina -->
-    <!-- <svg class="  w-[23px] ml-[20px] " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+        <!-- x tendina -->
+        <!-- <svg class="  w-[23px] ml-[20px] " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path
                         d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z" />
                 </svg> -->
-    <!-- tendina -->
-    <!-- <div id="transizione"
+        <!-- tendina -->
+        <!-- <div id="transizione"
                     class=" flex flex-col p-[30px] position absolute top-[80px] right-0  bg-slate-600 w-[180px] h-[170px] transition ease-in-out duration-300 ">
 
                     <RouterLink to="/shop" class="text-medio hover:underline ">Shop </RouterLink>
@@ -77,15 +83,15 @@ export default
                 </div> -->
 
 
-    <!-- </div>
+        <!-- </div>
         </div>
     </header> -->
 
-    <!-- Nav dekstop -->
-    <!-- <div id class="hidden p-[40px] justify-between items-center bg-slate-400 h-[100px] lg:flex">
+        <!-- Nav dekstop -->
+        <!-- <div id class="hidden p-[40px] justify-between items-center bg-slate-400 h-[100px] lg:flex">
 
 <!- Nav sx -->
-    <!-- <div class="flex items-center">
+        <!-- <div class="flex items-center">
     <RouterLink to="/" class="text-grande">A<sup>5</sup></RouterLink>
     <RouterLink to="/shop" class="text-medio ml-[80px] hover:underline">Shop </RouterLink>
     <RouterLink to="/saldi" class="text-medio ml-[20px] hover:underline">Saldi </RouterLink>
@@ -93,7 +99,7 @@ export default
 </div> 
 
          Nav dx -->
-    <!-- <div class="flex items-center">
+        <!-- <div class="flex items-center">
             <input type="text" placeholder="Search..."
                 class="text-piccolo pl-[20px] w-[250px] h-[50px] px-[10px] rounded-[30px]">
 
@@ -102,8 +108,8 @@ export default
             </button>
             <CartView v-if="cartShow" @close-cart="showCart" @checkout="showCart"></CartView>
         </div> -->
-    <!-- </div>  -->
-
+        <!-- </div>  -->
+    </div>
     <header>
 
 
@@ -148,15 +154,13 @@ export default
 
 
                     <!-- SEARCH -->
-
                     <div class="flex  ">
-
                         <div class="relative sm:w-60 flex items-center mr-[-20px] sm:mr-0">
+                            <input v-model="searchTerm" @change="searchEvent" type="search"
+                                class="hidden md:block w-full border h-12 shadow py-4 pr-12 pl-4 rounded-full"
+                                placeholder="Ricerca...">
 
-                            <input type="text" class="hidden md:block w-full border h-12 shadow p-4 rounded-full"
-                                placeholder="Search...">
-
-                            <svg class="text-black h-7 w-7 lg:h-5 lg:w-5 md:absolute md:top-3.5 md:right-3 fill-current"
+                            <svg class="text-black h-6 w-6 lg:h-5 lg:w-5 md:absolute md:top-3 md:right-3 fill-current"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 version="1.1" x="0px" y="0px" viewBox="0 0 56.966 56.966"
                                 style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve">
@@ -198,14 +202,10 @@ export default
 
 
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </nav>
-
     </header>
 </template>
 
