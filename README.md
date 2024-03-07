@@ -36,7 +36,7 @@ il gruppo N2 continua la progettazione grafica completando l`header e nav, homep
 # Giorno N3
 Diario del capitano Giorno N3 (06/03/2024)
 E' già mercoledi, la ciurma sta procedendo bene nella mattina abbiamo completato la maggior parte della parte grafica e il carrello ha iniziato a funionare
-abbiamo ancora molto da sistemare, ma l'umore generale è tornato a salire.
+abbiamo ancora molto da sistemare, ma l'umore generale è tornato a salire. la mattina abbiamo implementato Pinia per le logiche del carrello
 
 nel pomeriggio abbiamo ripresi abbastanza carichi ma per un imprevisto il capitano ha dovuto lasciare momentaneamente la nave, :(
 la Ciurma ha continuato a lavorare in modo più che egregio 
@@ -77,6 +77,8 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 
 ## DETTAGLI DEL PROGETTO:
 
+> [!NOTE]
+> Probabilmente è tutto sbagliato
 ### ROAD MAP:
 - [x] Porno Micro onde
 - [ ] Mlem
