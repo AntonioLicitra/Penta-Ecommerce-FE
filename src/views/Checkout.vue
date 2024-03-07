@@ -116,7 +116,7 @@
   </div>
   <div v-else class="text-center p-4 text-xl my-[10%] flex flex-col justify-center items-center">
     <div>Il tuo carello è vuoto, non dovresti essere qui</div>
-    <div class="bg-blue-500 mt-5 p-4 hover:bg-blue-600 transition duration-300">
+    <div class="bg-blue-500 text-white border border-blue-500 mt-5 p-4 hover:bg-white hover:text-blue-500 transition duration-300">
       <RouterLink @click="this.$emit('close-cart')" to="/shop">Torna allo shop</RouterLink>
     </div>
   </div>

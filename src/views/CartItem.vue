@@ -56,20 +56,16 @@ export default {
         this.cartStore.$subscribe(() => {
             this.quantity = this.item.quantity
         })
-        console.log("CartItem.this.quantity", this.quantity)
     },
     methods: {
         ...mapActions(useCartStore, ['remove', 'removeOne', 'add']),
         modifyQuantity() {
             // TODO
-            console.log("CartItem.modifiQuantity()")
         },
         increment() {
             this.add(this.item.product)
-            console.log("CartItem.increment")
         },
         decrement() {
-            // TODO
             this.removeOne(this.item);
         },
         removeItem() {

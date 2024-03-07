@@ -16,7 +16,8 @@
                     <!-- TOTALE CARRELLO -->
                     <div class="flex justify-between items-center p-2">
                         <div> {{ total }}€</div>
-                        <button class="text-[14px] border-b border-white hover:border-black transition duration-300" @click="emptyCart">Svuota carrello</button>
+                        <button class="text-[14px] border-b border-white hover:border-black transition duration-300"
+                            @click="emptyCart">Svuota carrello</button>
                     </div>
 
                     <!-- CHECKOUT CTA -->
@@ -30,9 +31,10 @@
                 </div>
                 <!-- CASO: CARRELLO VUOTO -->
                 <div v-else
-                    class="border border-slate-700 text-center p-4 text-xl mt-4 flex flex-col justify-center items-center">
+                    class="border border-slate-200 text-center p-4 text-xl mt-4 flex flex-col justify-center items-center">
                     <div>Il tuo carello è vuoto</div>
-                    <div class="bg-blue-500 mt-5 p-4 hover:bg-blue-600 transition duration-300">
+                    <div
+                        class="bg-blue-500 text-white border border-blue-500 mt-5 p-4 hover:bg-white hover:text-blue-500 transition duration-300">
                         <RouterLink @click="this.$emit('close-cart')" to="/shop">Torna allo shop</RouterLink>
                     </div>
                 </div>
