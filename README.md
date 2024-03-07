@@ -1,4 +1,4 @@
-
+#Giorno N1
 Diario del capitano Giorno N1 (04/03/2024)
 era un Lunedì uggioso nel quale il Comandante Supremo Egreggio Sg. Simone ci ha donato delle fantastiche traccie,
 tra le molteplici scelte dopo svariate votazioni il mio equipaggio ed io abbiamo deciso di fare la traccia dell ecommerce,
