@@ -53,6 +53,15 @@ Un ringraziamento speciale va al ufficiale di Vascello Andrea M. per le sue capa
 Un altro ringraziamento speciale va al Sottufficiale Antonio M. e al Sottufficiale Antonino P.E. per la continua creazione di problemi che altrimenti avrebbero reso i progressi del
 progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di problem solving.
 
+ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ Contro ogni previsione ilComandante Supremo Egreggio Sg. Simone ha poaticipato la presentazione dei progetti di mezza giornata, Quindi:
+ 
+ Diario del capitano Giorno N5 (07/03/2024)
+ Giorno abbastanza strano, ogggi abbiamo le presentazioni del progetto, il diario concluso con tutti i ringraziamenti le lacrime ecc. sono già stati scritti/versati ieri quindi in realtà non so che scrivere oggi 
+
+ ____________________________________________________________
+
 DI SEGUITO I DETTAGLI DEL PROGETTO:
 
 ROAD MAP:
