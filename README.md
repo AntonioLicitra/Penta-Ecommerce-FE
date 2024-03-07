@@ -75,10 +75,12 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 (PRESENTAZIONE PROGETTO) :shipit::shipit::shipit:
  ____________________________________________________________
 
-## DETTAGLI DEL PROGETTO:
-
 > [!NOTE]
 > Probabilmente è tutto sbagliato
+
+## DETTAGLI DEL PROGETTO:
+
+
 ### ROAD MAP:
 - [x] Porno Micro onde
 - [ ] Mlem
