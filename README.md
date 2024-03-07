@@ -1,4 +1,6 @@
-# Giorno N1
+#Penta-Ecommerce-FE
+
+## Giorno N1
 Diario del capitano Giorno N1 (04/03/2024) :shipit:
 era un Lunedì uggioso nel quale il Comandante Supremo Egreggio Sg. Simone ci ha donato delle fantastiche traccie,
 tra le molteplici scelte dopo svariate votazioni il mio equipaggio ed io abbiamo deciso di fare la traccia dell ecommerce,
@@ -14,7 +16,7 @@ ore 17:45 con votazione di tutto l`equipaggio si decide di usare Tailwind a disc
 
 (TEMPO TOTALE DEL GIORNO 3.5h)
 ____________________________________________________________
-# Giorno N2
+## Giorno N2
 Diario del capitano Giorno N2 (05/03/2024)
 un Martedi' particolare, appena svegli ci siamo ritrovati al centro di una tempesta ma grazie all equipaggio siamo riusciti ad aggirala, almeno per il momento...
 Dopo il conueto appello mattutino ci siamo riuniti per assegnare le task giornaliere, nello specifico:
@@ -40,7 +42,7 @@ la Ciurma ha continuato a lavorare in modo più che egregio
 
 (TEMPO TOTALE DEL GIORNO 7h)
 ____________________________________________________________
-# Giorno N4
+## Giorno N4
 Diario del capitano Giorno N4 (07/03/2024)
 un giovedi non particolarmente soleggiato, Ci rimane tutta la mattina per le ultime rifiniture ed ultimare il progetto nel pomeriggio dovemo fare la presentazione del progetto 
 al Comandante Supremo Egreggio Sg. Simone sperando di aver fatto un buon lavoro e di aver soddisfatto le sue aspettative... 
@@ -63,7 +65,7 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 (TEMPO TOTALE DEL GIORNO 7h)
  ____________________________________________________________
  
-# Giorno N5 (Bonus)
+## Giorno N5 (Bonus)
  Contro ogni previsione ilComandante Supremo Egreggio Sg. Simone ha poaticipato la presentazione dei progetti di mezza giornata, Quindi:
  
  Diario del capitano Giorno N5 (07/03/2024)
@@ -72,7 +74,7 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 (PRESENTAZIONE PROGETTO) :shipit::shipit::shipit:
  ____________________________________________________________
 
-# DETTAGLI DEL PROGETTO:
+## DETTAGLI DEL PROGETTO:
 
 ### ROAD MAP:
 - [x] Porno Micro onde
