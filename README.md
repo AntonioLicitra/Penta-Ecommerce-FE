@@ -1,4 +1,4 @@
-#Penta-Ecommerce-FE
+# Penta-Ecommerce-FE
 
 ## Giorno N1
 Diario del capitano Giorno N1 (04/03/2024) :shipit:
