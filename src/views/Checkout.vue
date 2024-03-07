@@ -181,13 +181,14 @@ export default {
 
       this.total = total.toFixed(2);
     },
-    checkout() {
+    checkout(e) {
       
       if(this.email != '' && this.nome != '' &&
          this.carta != '' && this.MMYY != '' &&
          this.cvc != '' &&  this.indirizzo !='' &&
          this.zip !=''){
         this.loading = true
+        e.preventDefault();
       
       setTimeout(() => {
         window.location.href = '/confirm'
