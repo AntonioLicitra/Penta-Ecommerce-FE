@@ -86,11 +86,10 @@ progetto tristi e noiosi, oltre ad aver messo alla prova le nostre competenze di
 (PRESENTAZIONE PROGETTO) :shipit::shipit::shipit:
  ____________________________________________________________
 
-> [!NOTE]
-> Probabilmente è tutto sbagliato
-
 ## DETTAGLI DEL PROGETTO:
 
+> [!NOTE]
+> Probabilmente è tutto sbagliato
 
 ### ROAD MAP:
 - [x] Header & Nav
