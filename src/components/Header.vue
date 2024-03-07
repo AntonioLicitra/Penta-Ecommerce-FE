@@ -144,7 +144,7 @@ export default {
 
                     <!-- MENU DESKTOP -->
 
-                    <ul class="max-[840px]:hidden max-xl:ml-[50px] flex gap-5 ml-[80px] ">
+                    <ul class="max-[1240px]:hidden max-xl:ml-[50px] flex gap-3 xl:gap-5  ml-[80px] ">
                         <RouterLink to="/shop" class="text-medio hover:underline">Shop </RouterLink>
                         <RouterLink to="/gaming" class="text-medio font-medium hover:underline">Gaming</RouterLink>
                         <RouterLink to="/fotografia" class="text-medio hover:underline">Fotografia</RouterLink>
@@ -180,7 +180,7 @@ export default {
                         </button>
                         <CartView v-if="cartShow" @close-cart="showCart" @checkout="showCart"></CartView>
                         <!-- menù -->
-                        <div @click="fnMenu" v-if="men" class="ml-[23px] w-[28px] sm:hidden"><svg
+                        <div @click="fnMenu" v-if="men" class="ml-[23px] w-[28px] min-[1240px]:hidden"><svg
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path
                                     d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
