@@ -1,5 +1,5 @@
 # Penta-Ecommerce-FE
-## > Progetto finale dell corso Frontend Developer by Opinno gruppo N2 :)
+> Progetto finale dell corso Frontend Developer by Opinno gruppo N2 :)
 
 ## Giorno N1
 Diario del capitano Giorno N1 (04/03/2024) :shipit:
