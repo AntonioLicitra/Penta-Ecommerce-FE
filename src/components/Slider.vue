@@ -1,7 +1,7 @@
 <template>
     <Carousel>
         <Slide v-for="(slide, i) in item.imageURLs" :key="i">
-            <RouterLink @click="reload" :to="{ path: '/detail/' + item.product_id }" class="flex justify-center items-center">
+            <RouterLink :to="{ path: '/detail/' + item.product_id }" class="flex justify-center items-center">
                 <img :src="slide" alt="" class="w-[75%]">
             </RouterLink>
         </Slide>
@@ -26,12 +26,8 @@ export default {
         Pagination,
         Navigation,
     },
-    methods: { 
-        reload(){ 
-             window.location.href="/detail/" + this.item.product_id 
-            
-        } 
-    }
+   
+    
 }
 </script>
 
