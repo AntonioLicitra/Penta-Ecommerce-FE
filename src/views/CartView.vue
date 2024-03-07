@@ -1,5 +1,6 @@
 <template>
-    <div class="cartView fixed top-0 right-0 w-[100vw] lg:w-[500px] h-screen bg-white text-black z-[9999]">
+    <div class="cartView fixed top-0 right-0 h-screen bg-white text-black z-[9999] transition w-screen md:w-[512px]"
+        :class="'opacity-' + lgCartOpacity">
         <div class="flex justify-center items-center flex-col p-5">
             <!-- CLOSE CART BUTTON -->
             <button @click="closeCart"
@@ -35,13 +36,14 @@
                     <div>Il tuo carello è vuoto</div>
                     <div
                         class="bg-blue-500 text-white border border-blue-500 mt-5 p-4 hover:bg-white hover:text-blue-500 transition duration-300">
-                        <RouterLink @click="this.$emit('close-cart')" to="/shop">Torna allo shop</RouterLink>
+                        <RouterLink @click="closeCart" to="/shop">Torna allo shop</RouterLink>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="fixed top-0 right-0 bottom-0 left-0 bg-black/25 z-[50]" @click="this.$emit('close-cart')"></div>
+    <div class="fixed top-0 right-0 bottom-0 left-0 bg-black/25 z-[50]" :class="'opacity-' + lgCartOpacity"
+        @click="closeCart"></div>
 </template>
 
 <script>
@@ -58,7 +60,8 @@ export default {
     data() {
         return {
             items: [], // [{product:{}, quantity: number}]
-            total: 0.00.toFixed(2)
+            total: 0.00.toFixed(2),
+            lgCartOpacity: 0
         }
     },
     computed: {
@@ -73,11 +76,20 @@ export default {
             this.calculateTotal()
             this.items = this.cartStore.items
         })
+        setTimeout(() => {
+            this.lgCartOpacity = 100
+        }, 100);
+    },
+    beforeUnmount() {
+        this.lgCartOpacity = 0
     },
     methods: {
         ...mapActions(useCartStore, ['empty']),
         closeCart() {
-            this.$emit('close-cart')
+            this.lgCartOpacity = 0
+            setTimeout(() => {
+                this.$emit('close-cart')
+            }, 150);
         },
         retrieveItems() {
             this.items = this.cartStore.items
